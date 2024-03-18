@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "luminixx-1",
+      "pokemon": "luminixx",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "28-45",
+      "weight": 2.5,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+  ]
+}

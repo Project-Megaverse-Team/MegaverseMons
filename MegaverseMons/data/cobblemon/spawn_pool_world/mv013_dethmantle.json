@@ -1,0 +1,44 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "dethmantle-1",
+            "pokemon": "dethmantle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "22-55",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy",
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        },
+		{
+            "id": "dethmantle-2",
+            "pokemon": "dethmantle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "22-55",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                   "#cobblemon:is_desert"
+                ]
+            }
+        }
+    ]
+}

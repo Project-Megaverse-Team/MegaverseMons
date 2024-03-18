@@ -1,0 +1,61 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "linernel-1",
+            "pokemon": "linernel",
+            "presets": [
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-50",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ]
+            }
+        },
+		{
+            "id": "linernel-2",
+            "pokemon": "linernel",
+            "presets": [
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-50",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                   "#cobblemon:is_overworld"
+                ]
+            }
+        },
+		{
+            "id": "linernel-valhansian-1",
+            "pokemon": "linernel valhansian",
+            "presets": [
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

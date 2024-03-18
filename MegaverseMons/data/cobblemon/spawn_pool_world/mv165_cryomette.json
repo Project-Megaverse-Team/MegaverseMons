@@ -1,0 +1,63 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "cryomette-1",
+            "pokemon": "cryomette",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_snowy"
+                ]
+            }
+        },
+		{
+            "id": "cryomette-2",
+            "pokemon": "cryomette",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_peak"
+                ]
+            }
+        },
+		{
+            "id": "cryomette-3",
+            "pokemon": "cryomette",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "18-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                   "#cobblemon:is_forest",
+                   "#cobblemon:is_hills",
+                   "#cobblemon:is_plains"
+                ]
+            }
+        }
+    ]
+}

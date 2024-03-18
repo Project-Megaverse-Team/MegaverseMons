@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "debiave-1",
+            "pokemon": "debiave",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+		{
+            "id": "debiave-2",
+            "pokemon": "debiave",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                   "#cobblemon:is_forest",
+                   "#cobblemon:is_hills",
+                   "#cobblemon:is_snowy"
+                ]
+            }
+        }
+    ]
+}

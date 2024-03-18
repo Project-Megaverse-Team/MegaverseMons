@@ -1,0 +1,83 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "yanditrix-1",
+            "pokemon": "yanditrix",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "25-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ],
+                "timeRange": "night"
+            }
+        },
+		{
+            "id": "yanditrix-2",
+            "pokemon": "yanditrix",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                   "#cobblemon:is_forest",
+                   "#cobblemon:is_hills",
+                   "#cobblemon:is_snowy"
+                ],
+                "timeRange": "night"
+            }
+        },
+		{
+            "id": "yanditrix-fratzkian-1",
+            "pokemon": "yanditrix fratzkian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "18-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                   "#cobblemon:is_plains",
+                   "#cobblemon:is_forest",
+                   "#cobblemon:is_hills",
+                   "#cobblemon:is_snowy"
+                ]
+            }
+        },
+		{
+            "id": "yanditrix-fratzkian-2",
+            "pokemon": "yanditrix fratzkian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-80",
+            "weight":10,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

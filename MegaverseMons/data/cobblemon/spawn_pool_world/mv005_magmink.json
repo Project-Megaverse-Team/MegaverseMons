@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "magmink-1",
+            "pokemon": "magmink",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "16-50",
+            "weight":5.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                   "#cobblemon:is_taiga"
+                ]
+            }
+        }
+    ]
+}
