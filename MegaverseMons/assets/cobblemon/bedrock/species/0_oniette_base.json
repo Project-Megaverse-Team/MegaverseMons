@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:oniette",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:oniette",
+      "model": "cobblemon:oniette.geo",
+      "texture": "cobblemon:textures/pokemon/oniette/oniette.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:yandement",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:yandement",
+      "model": "cobblemon:yandement.geo",
+      "texture": "cobblemon:textures/pokemon/yandement/yandement.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/yandement/yandement_shiny.png"
+    }
+  ]
+}

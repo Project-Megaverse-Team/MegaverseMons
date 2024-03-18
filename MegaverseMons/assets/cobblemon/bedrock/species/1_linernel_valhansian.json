@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:linernel",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "valhansian"
+      ],
+      "poser": "cobblemon:linernel_valhansen",
+      "model": "cobblemon:linernel_valhansen.geo",
+      "texture": "cobblemon:textures/pokemon/linernel/linernel_valhansen.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/linernel/linernel_valhansen_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "valhansian",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/linernel/linernel_valhansen_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/linernel/linernel_valhansen_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

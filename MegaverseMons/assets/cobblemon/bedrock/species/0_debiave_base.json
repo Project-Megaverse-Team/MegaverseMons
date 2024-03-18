@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:debiave",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:debiave",
+      "model": "cobblemon:debiave.geo",
+      "texture": "cobblemon:textures/pokemon/debiave/debiave.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/debiave/debiave_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/debiave/debiave_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/debiave/debiave_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

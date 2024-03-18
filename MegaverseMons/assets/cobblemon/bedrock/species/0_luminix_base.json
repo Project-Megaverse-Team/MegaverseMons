@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:luminix",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:luminix",
+      "model": "cobblemon:luminix.geo",
+      "texture": "cobblemon:textures/pokemon/luminix/luminix.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/luminix/luminix_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/luminix/luminix_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/luminix/luminix_shiny_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:babette",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:babette",
+      "model": "cobblemon:babette.geo",
+      "texture": "cobblemon:textures/pokemon/babette/babette.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/babette/babette_shiny.png"
+    }
+  ]
+}

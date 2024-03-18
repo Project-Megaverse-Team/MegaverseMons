@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:sparkless",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sparkless",
+      "model": "cobblemon:sparkless.geo",
+      "texture": "cobblemon:textures/pokemon/sparkless/sparkless.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/sparkless/sparkless_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sparkless/sparkless_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/sparkless/sparkless_shiny_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

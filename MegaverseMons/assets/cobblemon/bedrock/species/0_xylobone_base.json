@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:xylobone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:xylobone",
+      "model": "cobblemon:xylobone.geo",
+      "texture": "cobblemon:textures/pokemon/xylobone/xylobone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xylobone/xylobone_shiny.png"
+    }
+  ]
+}

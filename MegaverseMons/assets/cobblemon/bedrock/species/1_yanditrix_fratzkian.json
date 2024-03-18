@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:yanditrix",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "fratzkian"
+      ],
+      "poser": "cobblemon:yanditrix_fratzki",
+      "model": "cobblemon:yanditrix_fratzki.geo",
+      "texture": "cobblemon:textures/pokemon/yanditrix/yanditrix_fratzki.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/yanditrix/yanditrix_fratzki_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "fratzkian",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/yanditrix/yanditrix_fratzki_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/yanditrix/yanditrix_fratzki_shiny_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

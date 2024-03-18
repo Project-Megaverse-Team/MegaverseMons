@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:stoake",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:stoake",
+      "model": "cobblemon:stoake.geo",
+      "texture": "cobblemon:textures/pokemon/stoake/stoake.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/stoake/stoake_shiny.png"
+    }
+  ]
+}

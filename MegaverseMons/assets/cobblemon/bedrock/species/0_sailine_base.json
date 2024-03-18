@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sailine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sailine",
+      "model": "cobblemon:sailine.geo",
+      "texture": "cobblemon:textures/pokemon/sailine/sailine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sailine/sailine_shiny.png"
+    }
+  ]
+}

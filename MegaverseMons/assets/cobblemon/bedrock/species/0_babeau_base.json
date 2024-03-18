@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:babeau",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:babeau",
+      "model": "cobblemon:babeau.geo",
+      "texture": "cobblemon:textures/pokemon/babeau/babeau.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/babeau/babeau_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:karatage",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:karatage",
+      "model": "cobblemon:karatage.geo",
+      "texture": "cobblemon:textures/pokemon/karatage/karatage.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/karatage/karatage_shiny.png"
+    }
+  ]
+}

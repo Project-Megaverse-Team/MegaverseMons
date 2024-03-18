@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:dethmantle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dethmantle",
+      "model": "cobblemon:dethmantle.geo",
+      "texture": "cobblemon:textures/pokemon/dethmantle/dethmantle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dethmantle/dethmantle_shiny.png"
+    }
+  ]
+}

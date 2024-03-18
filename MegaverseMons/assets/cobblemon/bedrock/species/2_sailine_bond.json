@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:sailine",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [
+        "broken_bond"
+      ],
+      "poser": "cobblemon:sailine_bond",
+      "model": "cobblemon:sailine_bond.geo",
+      "texture": "cobblemon:textures/pokemon/sailine/sailine_bond.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "broken_bond",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sailine/sailine_bond_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:yanditrix",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:yanditrix",
+      "model": "cobblemon:yanditrix.geo",
+      "texture": "cobblemon:textures/pokemon/yanditrix/yanditrix.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/yanditrix/yanditrix_shiny.png"
+    }
+  ]
+}

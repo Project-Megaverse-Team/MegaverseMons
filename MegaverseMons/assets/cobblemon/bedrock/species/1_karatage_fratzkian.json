@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:karatage",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "fratzkian"
+      ],
+      "poser": "cobblemon:karatage_fratzki",
+      "model": "cobblemon:karatage_fratzki.geo",
+      "texture": "cobblemon:textures/pokemon/karatage/karatage_fratzki.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/karatage/karatage_fratzki_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "fratzkian",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/karatage/karatage_fratzki_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/karatage/karatage_fratzki_shiny_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

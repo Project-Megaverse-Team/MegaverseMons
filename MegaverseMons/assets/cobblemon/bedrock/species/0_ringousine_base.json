@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:ringousine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ringousine",
+      "model": "cobblemon:ringousine.geo",
+      "texture": "cobblemon:textures/pokemon/ringousine/ringousine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ringousine/ringousine_shiny.png",
+      "layers": []
+    }
+  ]
+}

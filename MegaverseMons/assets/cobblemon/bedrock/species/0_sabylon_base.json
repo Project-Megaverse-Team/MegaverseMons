@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:sabylon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sabylon",
+      "model": "cobblemon:sabylon.geo",
+      "texture": "cobblemon:textures/pokemon/sabylon/sabylon.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/sabylon/sabylon_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sabylon/sabylon_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/sabylon/sabylon_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cryomette",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cryomette",
+      "model": "cobblemon:cryomette.geo",
+      "texture": "cobblemon:textures/pokemon/cryomette/cryomette.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cryomette/cryomette_shiny.png"
+    }
+  ]
+}

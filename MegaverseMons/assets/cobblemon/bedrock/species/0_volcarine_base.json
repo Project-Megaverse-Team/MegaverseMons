@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:volcarine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:volcarine",
+      "model": "cobblemon:volcarine.geo",
+      "texture": "cobblemon:textures/pokemon/volcarine/volcarine.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/volcarine/volcarine_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+      "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/volcarine/volcarine_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/volcarine/volcarine_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

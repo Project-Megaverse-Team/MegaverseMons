@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:soaringkite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:soaringkite",
+      "model": "cobblemon:soaringkite.geo",
+      "texture": "cobblemon:textures/pokemon/soaringkite/soaringkite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/soaringkite/soaringkite_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:windoware",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:windoware",
+      "model": "cobblemon:linernel_valhansen.geo",
+      "texture": "cobblemon:textures/pokemon/windoware/windoware.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/windoware/windoware_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+      "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/windoware/windoware_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/windoware/windoware_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:manixie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:manixie",
+      "model": "cobblemon:manixie.geo",
+      "texture": "cobblemon:textures/pokemon/manixie/manixie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/manixie/manixie_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:glideau",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:glideau",
+      "model": "cobblemon:glideau.geo",
+      "texture": "cobblemon:textures/pokemon/glideau/glideau.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/glideau/glideau_shiny.png"
+    }
+  ]
+}

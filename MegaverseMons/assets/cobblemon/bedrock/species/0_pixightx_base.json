@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:pixightx",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pixightx",
+      "model": "cobblemon:pixightx.geo",
+      "texture": "cobblemon:textures/pokemon/pixightx/pixightx.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/pixightx/pixightx_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/pixightx/pixightx_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/pixightx/pixightx_shiny_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

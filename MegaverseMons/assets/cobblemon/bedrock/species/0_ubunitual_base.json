@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:ubunitual",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ubunitual",
+      "model": "cobblemon:ubunitual.geo",
+      "texture": "cobblemon:textures/pokemon/ubunitual/ubunitual.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/ubunitual/ubunitual_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ubunitual/ubunitual_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/ubunitual/ubunitual_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

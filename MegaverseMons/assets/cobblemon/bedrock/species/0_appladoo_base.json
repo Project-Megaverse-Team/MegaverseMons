@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:appladoo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:appladoo",
+      "model": "cobblemon:appladoo.geo",
+      "texture": "cobblemon:textures/pokemon/appladoo/appladoo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/appladoo/appladoo_shiny.png",
+      "layers": []
+    }
+  ]
+}

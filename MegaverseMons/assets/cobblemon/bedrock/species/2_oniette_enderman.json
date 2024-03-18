@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:oniette",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": [
+        "doll-enderman"
+      ],
+      "poser": "cobblemon:oniette_bittersweet",
+      "model": "cobblemon:oniette_enderman.geo",
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_enderman.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "doll-enderman",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_enderman_shiny.png"
+    }
+  ]
+}

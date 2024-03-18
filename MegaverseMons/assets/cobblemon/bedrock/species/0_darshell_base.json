@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:darshell",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:darshell",
+      "model": "cobblemon:linernel_valhansen.geo",
+      "texture": "cobblemon:textures/pokemon/darshell/darshell.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/darshell/darshell_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+      "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/darshell/darshell_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/darshell/darshell_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

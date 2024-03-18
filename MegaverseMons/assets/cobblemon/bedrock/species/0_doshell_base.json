@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:doshell",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:doshell",
+      "model": "cobblemon:linernel_valhansen.geo",
+      "texture": "cobblemon:textures/pokemon/doshell/doshell.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/doshell/doshell_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+      "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/doshell/doshell_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/doshell/doshell_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

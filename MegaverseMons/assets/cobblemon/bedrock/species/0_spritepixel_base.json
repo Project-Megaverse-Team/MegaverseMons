@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:spritepixel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:spritepixel",
+      "model": "cobblemon:spritepixel.geo",
+      "texture": "cobblemon:textures/pokemon/spritepixel/spritepixel.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/spritepixel/spritepixel_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/spritepixel/spritepixel_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/spritepixel/spritepixel_shiny_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

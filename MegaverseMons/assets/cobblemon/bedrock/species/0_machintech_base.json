@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:machintech",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:machintech",
+      "model": "cobblemon:machintech.geo",
+      "texture": "cobblemon:textures/pokemon/machintech/machintech.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/machintech/machintech_emissive.png",
+        "emissive": "true"
+        }
+	]
+    },
+    {
+      "aspects": [
+      "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/machintech/machintech_shiny.png",
+      "layers": [
+	{
+        "name": "signature-color",
+        "texture": "cobblemon:textures/pokemon/machintech/machintech_emissive.png",
+        "emissive": "true"
+        }
+	]
+    }
+  ]
+}

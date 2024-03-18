@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:auroncer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:auroncer",
+      "model": "cobblemon:auroncer.geo",
+      "texture": "cobblemon:textures/pokemon/auroncer/auroncer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/auroncer/auroncer_shiny.png"
+    }
+  ]
+}
