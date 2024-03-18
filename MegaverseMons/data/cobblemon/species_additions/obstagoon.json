@@ -1,0 +1,132 @@
+{
+  "target": "cobblemon:obstagoon",
+  "features": [
+    "hoennian"
+  ],
+  "forms": [
+    {
+      "name": "hoenn",
+      "primaryType": "fighting",
+      "secondaryType": "normal",
+      "abilities": [
+        "innerfocus",
+        "guts",
+        "h:quickdraw"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 101,
+        "defence": 90,
+        "special_attack": 81,
+        "special_defence": 60,
+        "speed": 95
+      },
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 260,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_fast",
+      "eggCycles": 15,
+      "eggGroups": [
+        "field"
+      ],
+      "moves": [
+        "1:babydolleyes",
+        "1:growl",
+        "1:pinmissile",
+        "1:playrough",
+        "1:rototiller",
+        "1:sandattack",
+        "1:switcheroo",
+        "1:tackle",
+        "1:tailwhip",
+        "9:covet",
+        "12:headbutt",
+        "13:odorsleuth",
+        "15:honeclaws",
+        "17:mudsport",
+        "18:furyswipes",
+        "23:rest",
+        "27:bestow",
+        "28:takedown",
+        "32:slash",
+        "33:counter",
+        "38:flail",
+        "43:bellydrum",
+        "48:doubleedge",
+        "tm:assurance",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:dig",
+        "tm:endure",
+        "tm:facade",
+        "tm:faketears",
+        "tm:fling",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gunkshot",
+        "tm:helpinghand",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:irontail",
+        "tm:mudshot",
+        "tm:payback",
+        "tm:pinmissile",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:round",
+        "tm:scaryface",
+        "tm:screech",
+        "tm:seedbomb",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:snore",
+        "tm:stompingtantrum",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:surf",
+        "tm:swift",
+        "tm:taunt",
+        "tm:thief",
+        "tm:throatchop",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:whirlpool",
+        "tm:workup",
+        "tutor:lashout"
+      ],
+      "labels": [
+        "gen3",
+        "hoenn_regional"
+      ],
+      "aspects": [
+        "hoennian"
+      ],
+      "height": 16,
+      "weight": 460,
+      "preEvolution": [
+        "linoone"
+      ],
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ]
+}
