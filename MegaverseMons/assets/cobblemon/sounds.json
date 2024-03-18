@@ -1,0 +1,188 @@
+{
+  "pokemon.xylobone.ambient": {
+    "sounds": [ "pokemon/xylobone/xylobone_ambient" ]
+  },
+  "pokemon.xylobone.cry": {
+    "sounds": [ { "name": "pokemon/xylobone/xylobone_cry", "volume": 0.8 } ]
+  },
+  "pokemon.dethmantle.ambient": {
+    "sounds": [ "pokemon/dethmantle/dethmantle_ambient" ]
+  },
+  "pokemon.dethmantle.cry": {
+    "sounds": [ { "name": "pokemon/dethmantle/dethmantle_cry", "volume": 0.8 } ]
+  },
+  "pokemon.babeau.ambient": {
+    "sounds": [ "pokemon/babeau/babeau_ambient" ]
+  },
+  "pokemon.babeau.cry": {
+    "sounds": [ { "name": "pokemon/babeau/babeau_cry", "volume": 0.8 } ]
+  },
+  "pokemon.karatage.ambient": {
+    "sounds": [ "pokemon/karatage/karatage_ambient" ]
+  },
+  "pokemon.karatage.cry": {
+    "sounds": [ { "name": "pokemon/karatage/karatage_cry", "volume": 0.8 } ]
+  },
+  "pokemon.karatage.fratzkian.ambient": {
+    "sounds": [ "pokemon/karatage/karatage_ambient" ]
+  },
+  "pokemon.karatage.fratzkian.cry": {
+    "sounds": [ { "name": "pokemon/karatage/karatage_cry", "volume": 0.8 } ]
+  },
+  "pokemon.yandement.ambient": {
+    "sounds": [ "pokemon/yandement/yandement_ambient" ]
+  },
+  "pokemon.yandement.cry": {
+    "sounds": [ { "name": "pokemon/yandement/yandement_cry", "volume": 0.8 } ]
+  },
+  "pokemon.babette.ambient": {
+    "sounds": [ "pokemon/babette/babette_ambient" ]
+  },
+  "pokemon.babette.cry": {
+    "sounds": [ { "name": "pokemon/babette/babette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.sailine.ambient": {
+    "sounds": [ "pokemon/sailine/sailine_ambient" ]
+  },
+  "pokemon.sailine.cry": {
+    "sounds": [ { "name": "pokemon/sailine/sailine_cry", "volume": 0.8 } ]
+  },
+  "pokemon.sailine.fratzkian.ambient": {
+    "sounds": [ "pokemon/sailine/sailine_ambient" ]
+  },
+  "pokemon.sailine.fratzkian.cry": {
+    "sounds": [ { "name": "pokemon/sailine/sailine_cry", "volume": 0.8 } ]
+  },
+  "pokemon.yanditrix.ambient": {
+    "sounds": [ "pokemon/yanditrix/yanditrix_ambient" ]
+  },
+  "pokemon.yanditrix.cry": {
+    "sounds": [ { "name": "pokemon/yanditrix/yanditrix_cry", "volume": 0.8 } ]
+  },
+  "pokemon.yanditrix_psycho.ambient": {
+    "sounds": [ "pokemon/yanditrix/yanditrix_psycho_ambient" ]
+  },
+  "pokemon.yanditrix_psycho.cry": {
+    "sounds": [ { "name": "pokemon/yanditrix/yanditrix_psycho_cry", "volume": 0.8 } ]
+  },
+  "pokemon.linernel.ambient": {
+    "sounds": [ "pokemon/linernel/linernel_ambient" ]
+  },
+  "pokemon.linernel.cry": {
+    "sounds": [ { "name": "pokemon/linernel/linernel_cry", "volume": 0.8 } ]
+  },
+  "pokemon.debiave.ambient": {
+    "sounds": [ "pokemon/debiave/debiave_ambient" ]
+  },
+  "pokemon.debiave.cry": {
+    "sounds": [ { "name": "pokemon/debiave/debiave_cry", "volume": 0.8 } ]
+  },
+  "pokemon.ubunitual.ambient": {
+    "sounds": [ "pokemon/ubunitual/ubunitual_ambient" ]
+  },
+  "pokemon.ubunitual.cry": {
+    "sounds": [ { "name": "pokemon/ubunitual/ubunitual_cry", "volume": 0.8 } ]
+  },
+  "pokemon.gentone.ambient": {
+    "sounds": [ "pokemon/gentone/gentone_ambient" ]
+  },
+  "pokemon.gentone.cry": {
+    "sounds": [ { "name": "pokemon/gentone/gentone_cry", "volume": 0.8 } ]
+  },
+  "pokemon.sabylon.ambient": {
+    "sounds": [ "pokemon/sabylon/sabylon_ambient" ]
+  },
+  "pokemon.sabylon.cry": {
+    "sounds": [ { "name": "pokemon/sabylon/sabylon_cry", "volume": 0.8 } ]
+  },
+  "pokemon.auroncer.ambient": {
+    "sounds": [ "pokemon/auroncer/auroncer_ambient" ]
+  },
+  "pokemon.auroncer.cry": {
+    "sounds": [ { "name": "pokemon/auroncer/auroncer_cry", "volume": 0.8 } ]
+  },
+  "pokemon.doshell.ambient": {
+    "sounds": [ "pokemon/doshell/doshell_ambient" ]
+  },
+  "pokemon.doshell.cry": {
+    "sounds": [ { "name": "pokemon/doshell/doshell_cry", "volume": 0.8 } ]
+  },
+  "pokemon.windoware.ambient": {
+    "sounds": [ "pokemon/windoware/windoware_ambient" ]
+  },
+  "pokemon.windoware.cry": {
+    "sounds": [ { "name": "pokemon/windoware/windoware_cry", "volume": 0.8 } ]
+  },
+  "pokemon.darshell.ambient": {
+    "sounds": [ "pokemon/darshell/darshell_ambient" ]
+  },
+  "pokemon.darshell.cry": {
+    "sounds": [ { "name": "pokemon/darshell/darshell_cry", "volume": 0.8 } ]
+  },
+  "pokemon.machintech.ambient": {
+    "sounds": [ "pokemon/machintech/machintech_ambient" ]
+  },
+  "pokemon.machintech.cry": {
+    "sounds": [ { "name": "pokemon/machintech/machintech_cry", "volume": 0.8 } ]
+  },
+  "pokemon.appladoo.ambient": {
+    "sounds": [ "pokemon/appladoo/appladoo_ambient" ]
+  },
+  "pokemon.appladoo.cry": {
+    "sounds": [ { "name": "pokemon/appladoo/appladoo_cry", "volume": 0.8 } ]
+  },
+  "pokemon.ringousine.ambient": {
+    "sounds": [ "pokemon/ringousine/ringousine_ambient" ]
+  },
+  "pokemon.ringousine.cry": {
+    "sounds": [ { "name": "pokemon/ringousine/ringousine_cry", "volume": 0.8 } ]
+  },
+  "pokemon.glideau.ambient": {
+    "sounds": [ "pokemon/glideau/glideau_ambient" ]
+  },
+  "pokemon.glideau.cry": {
+    "sounds": [ { "name": "pokemon/glideau/glideau_cry", "volume": 0.8 } ]
+  },
+  "pokemon.cryomette.ambient": {
+    "sounds": [ "pokemon/cryomette/cryomette_ambient" ]
+  },
+  "pokemon.cryomette.cry": {
+    "sounds": [ { "name": "pokemon/cryomette/cryomette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.oniette.ambient": {
+    "sounds": [ "pokemon/oniette/oniette_ambient" ]
+  },
+  "pokemon.oniette.cry": {
+    "sounds": [ { "name": "pokemon/oniette/oniette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.oniette.bittersweet.ambient": {
+    "sounds": [ "pokemon/oniette/oniette_ambient" ]
+  },
+  "pokemon.oniette.bittersweet.cry": {
+    "sounds": [ { "name": "pokemon/oniette/oniette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.manixie.ambient": {
+    "sounds": [ "pokemon/manixie/manixie_ambient" ]
+  },
+  "pokemon.manixie.cry": {
+    "sounds": [ { "name": "pokemon/manixie/manixie_cry", "volume": 0.8 } ]
+  },
+  "pokemon.kagurette.ambient": {
+    "sounds": [ "pokemon/kagurette/kagurette_ambient" ]
+  },
+  "pokemon.kagurette.cry": {
+    "sounds": [ { "name": "pokemon/kagurette/kagurette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.soaringkite.ambient": {
+    "sounds": [ "pokemon/soaringkite/soaringkite_ambient" ]
+  },
+  "pokemon.soaringkite.cry": {
+    "sounds": [ { "name": "pokemon/soaringkite/soaringkite_cry", "volume": 0.8 } ]
+  },
+  "pokemon.spritepixel.ambient": {
+    "sounds": [ "pokemon/spritepixel/spritepixel_ambient" ]
+  },
+  "pokemon.spritepixel.cry": {
+    "sounds": [ { "name": "pokemon/spritepixel/spritepixel_cry", "volume": 0.8 } ]
+  }
+}
