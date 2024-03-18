@@ -1,0 +1,17 @@
+{
+  "type": "choice",
+  "keys": ["doll"],
+  "default": "eevee",
+  "choices": [
+    "eevee",
+    "bittersweet",
+    "creeper",
+    "enderman",
+    "maid_fairy",
+    "pig",
+    "sheep",
+    "axolotl"
+  ],
+  "isAspect": true,
+  "aspectFormat": "doll-{{choice}}"
+}

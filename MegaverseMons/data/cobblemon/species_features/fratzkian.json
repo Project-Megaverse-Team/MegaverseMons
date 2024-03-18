@@ -1,0 +1,6 @@
+{
+  "keys": ["fratzkian"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

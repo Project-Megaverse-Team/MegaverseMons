@@ -1,0 +1,6 @@
+{
+  "keys": ["broken_bond"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}
