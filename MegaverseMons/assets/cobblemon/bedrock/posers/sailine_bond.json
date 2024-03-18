@@ -1,0 +1,62 @@
+{
+"head": "head",
+   "portraitScale": 1.5,
+   "portraitTranslation": [0, 1.75, 0],
+   "profileScale": .5,
+   "profileTranslation": [0, 1, 0],
+  "faint": "bedrock(sailine_bond, faint)",
+  "cry": "bedrock(sailine_bond, cry)",
+  "poses": {
+     "battle-idle": {
+       "poseName": "battle-idle",
+       "transformTicks": 10,
+       "poseTypes": [ "STAND" ],
+       "isBattle": true,
+       "animations": ["look", "bedrock(sailine_bond, battle_idle)"],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(sailine_bond, blink)"]
+       }
+     ]
+         },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [ "STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER", "FLOAT" ],
+       "isBattle": false,
+      "animations": [
+        "look",
+        "bedrock(sailine_bond, ground_idle)"
+      ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(sailine_bond, blink)"]
+       }
+     ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK", "FLY", "SWIM" ],
+      "animations": [ "bedrock(sailine_bond, ground_walk)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(sailine_bond, blink)"]
+       }
+     ]
+    },
+   "sleeping": {
+     "poseName": "sleeping",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SLEEP"
+     ],
+     "animations": [
+       "bedrock(sailine_bond, sleep)"
+     ]
+   }
+  }
+}

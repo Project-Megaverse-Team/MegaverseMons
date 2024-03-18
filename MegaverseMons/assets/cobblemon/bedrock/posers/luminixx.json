@@ -1,0 +1,96 @@
+{
+ "head": "head",
+ "portraitScale": 2,
+ "portraitTranslation": [ 0, 0.15, 0 ],
+ "profileScale": 0.85,
+ "profileTranslation": [ 0, 0.55, 0 ],
+  "faint": "bedrock(luminixx, faint)",
+  "cry": "bedrock(luminixx, cry)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "look",
+        "bedrock(luminixx, ground_idle)"
+      ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(luminixx, blink)"]
+       }
+     ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "look", "bedrock(luminixx, ground_walk)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(luminixx, blink)"]
+       }
+     ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "transformTicks": 10,
+      "poseTypes": [ "FLY" ],
+      "animations": [ "look", "bedrock(luminixx, air_fly)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(luminixx, blink)"]
+       }
+     ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "transformTicks": 10,
+      "poseTypes": [ "HOVER" ],
+      "animations": [ "look", "bedrock(luminixx, air_idle)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(luminixx, blink)"]
+       }
+     ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [ "look", "bedrock(luminixx, air_idle)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(luminixx, blink)"]
+       }
+     ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [ "SWIM" ],
+      "animations": [ "look", "bedrock(luminixx, air_fly)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(luminixx, blink)"]
+       }
+     ]
+    },
+   "sleeping": {
+     "poseName": "sleeping",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SLEEP"
+     ],
+     "animations": [
+       "bedrock(luminixx, sleep)"
+     ]
+   }
+  }
+}

@@ -1,0 +1,96 @@
+{
+ "head": "head",
+   "portraitScale": 1.5,
+   "portraitTranslation": [0, 1.75, 0],
+   "profileScale": .5,
+   "profileTranslation": [0, 1, 0],
+  "faint": "bedrock(yandement_fratzki, faint)",
+  "cry": "bedrock(yandement_fratzki, cry)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "look",
+        "bedrock(yandement_fratzki, ground_idle)"
+      ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(yandement_fratzki, blink)"]
+       }
+     ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [ "WALK" ],
+      "animations": [ "look", "bedrock(yandement_fratzki, ground_walk)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(yandement_fratzki, blink)"]
+       }
+     ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "transformTicks": 10,
+      "poseTypes": [ "FLY" ],
+      "animations": [ "look", "bedrock(yandement_fratzki, air_fly)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(yandement_fratzki, blink)"]
+       }
+     ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "transformTicks": 10,
+      "poseTypes": [ "HOVER" ],
+      "animations": [ "look", "bedrock(yandement_fratzki, air_idle)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(yandement_fratzki, blink)"]
+       }
+     ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "transformTicks": 10,
+      "poseTypes": [ "FLOAT" ],
+      "animations": [ "look", "bedrock(yandement_fratzki, air_idle)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(yandement_fratzki, blink)"]
+       }
+     ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "transformTicks": 10,
+      "poseTypes": [ "SWIM" ],
+      "animations": [ "look", "bedrock(yandement_fratzki, air_fly)" ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(yandement_fratzki, blink)"]
+       }
+     ]
+    },
+   "sleeping": {
+     "poseName": "sleeping",
+     "transformTicks": 10,
+     "poseTypes": [
+       "SLEEP"
+     ],
+     "animations": [
+       "bedrock(yandement_fratzki, sleep)"
+     ]
+   }
+  }
+}
