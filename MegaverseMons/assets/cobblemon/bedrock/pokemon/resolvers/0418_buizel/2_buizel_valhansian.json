@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:buizel",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["valhansian"],
+      "model": "cobblemon:buizel_valhansian.geo",
+      "texture": "cobblemon:textures/pokemon/0418_buizel/buizel_valhansian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+	    "valhansian"
+      ],
+      "texture": "cobblemon:textures/pokemon/0418_buizel/buizel_valhansian_shiny.png"
+    }
+  ]
+}

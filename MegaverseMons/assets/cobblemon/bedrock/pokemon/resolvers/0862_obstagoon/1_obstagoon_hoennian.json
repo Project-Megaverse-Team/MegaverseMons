@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:obstagoon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["hoennian"],
+      "model": "cobblemon:obstagoon_hoennian.geo",
+      "texture": "cobblemon:textures/pokemon/0862_obstagoon/obstagoon_hoennian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hoennian"
+      ],
+      "texture": "cobblemon:textures/pokemon/0862_obstagoon/obstagoon_hoennian_shiny.png"
+    }
+  ]
+}
