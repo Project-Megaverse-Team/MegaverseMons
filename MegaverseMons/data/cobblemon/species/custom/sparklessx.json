@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "sparklessx",
+  "nationalPokedexNumber": 5033,
+  "primaryType": "electric",
+  "secondaryType": "flying",
+  "abilities": [
+    "voltabsorb",
+    "static",
+    "h:transistor"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 132,
+    "defence": 55,
+    "special_attack": 103,
+    "special_defence": 65,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "7-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.35,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.45
+    }
+   }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "0:electroball",
+    "0:sunnyday",
+    "0:amnesia",
+    "1:tackle",
+    "5:leer",
+    "10:nuzzle",
+    "15:drainingkiss",
+    "17:fairywind",
+    "18:singsound",
+    "20:sleeppowder",
+    "22:flashbang",
+    "24:flashpulse",
+    "30:trickshot",
+    "32:magicalleaf",
+    "36:thunderbolt",
+    "38:thunderpunch",
+    "40:aircutter",
+    "42:thunder",
+    "44:reflect",
+    "46:lightscreen",
+    "48:nastyplot",
+    "50:flashcannon",
+    "52:solarbeam",
+    "54:closecombat",
+    "56:bravebird",
+    "58:hurricanewind",
+    "60:storedpower",
+    "64:supernova"
+  ],
+  "labels": [
+    "xenoverse",
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.sparkless.desc1",
+    "cobblemon.species.sparkless.desc2"
+  ],
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.6,
+    "height": 2.3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 1
+  },
+  "height": 0.6,
+  "weight": 1,
+      "preEvolution": "luminixx",
+  "evolutions": []
+}

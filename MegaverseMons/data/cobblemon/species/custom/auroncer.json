@@ -1,0 +1,182 @@
+{
+  "implemented": true,
+  "name": "auroncer",
+  "nationalPokedexNumber": 5150,
+  "primaryType": "fire",
+  "secondaryType": "ice",
+  "abilities": [
+    "snowwarning"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 113,
+    "defence": 81,
+    "special_attack": 137,
+    "special_defence": 87,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "cobblemon:never_melt_ice"
+      },
+      {
+        "item": "minecraft:packed_ice",
+        "quantityRange": "2-2"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "2-2"
+      }
+]
+  },
+  "moves": [
+    "0:hail",
+    "0:haze",
+    "0:fakeout",
+    "0:tackle",
+    "1:ember",
+    "4:powdersnow",
+    "8:furyswipes",
+    "16:quickguard",
+    "24:powergem",
+    "32:moonblast",
+    "36:auroraveil",
+    "40:mist",
+    "48:tripleaxel",
+    "56:honeclaws",
+    "64:moonlight",
+    "72:firelash",
+    "80:agilitycosmic",
+    "88:blizzard",
+    "96:sheercold",
+    "tm:dragonclaw",
+    "tm:waterpulse",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:sunny day",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:gigadrain",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solar beam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:skillswap",
+    "tm:snatch",
+    "tm:overheat",
+    "tm:gigaimpact",
+    "tm:solarblade",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:explosion",
+    "tm:charm",
+    "tm:willowisp",
+    "tm:swift",
+    "tm:helpinghand",
+    "tm:revenge",
+    "tm:imprison",
+    "tm:payback",
+    "tm:fling",
+    "tm:lowkick",
+    "tm:reversal",
+    "tm:drainpunch",
+    "tm:shadowclaw",
+    "tm:poisonjab",
+    "tm:acrobatics",
+    "tm:retaliate",
+    "tm:mistyterrain",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:swagger",
+    "tm:falseswipe",
+    "tm:aquacutter",
+    "tm:counter",
+    "tm:auroraveil",
+    "tm:chillingwater",
+    "tm:mistyfog",
+    "tm:watersport",
+    "tm:slash",
+    "tm:morningsun",
+    "tm:moonlight",
+    "tm:nastyplot"
+  ],
+  "labels": [
+    "custom",
+    "mythical",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.auroncer.desc1",
+    "cobblemon.species.auroncer.desc2"
+  ],
+  "baseScale": 1,
+  "evolutions": [],
+  "hitbox": {
+    "width": 0.7,
+    "height": 2.2,
+    "fixed": false
+  },
+  "baseFriendship": 0,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 66,
+  "cannotDynamax": false
+}

@@ -1,0 +1,190 @@
+{
+  "implemented": true,
+  "name": "babeau",
+  "nationalPokedexNumber": 5004,
+  "primaryType": "normal",
+  "abilities": [
+    "cutecharm",
+    "rivalry",
+    "h:serenegrace"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 64,
+    "special_attack": 44,
+    "special_defence": 45,
+    "speed": 62
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 128,
+  "maleRatio": 1,
+  "shoulderMountable": true,
+  "baseExperienceYield": 57,
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:silk_scarf",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:chople_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+  "moves": [
+    "0:echoedvoicesound",
+    "0:pound",
+    "5:trickshot",
+    "10:babble",
+    "15:singsound",
+    "18:assurance",
+    "23:faketears",
+    "27:wakeupslap",
+    "24:foulplay",
+    "28:hypervoicesound",
+    "30:punishment",
+    "34:nightslash",
+    "38:playrough",
+    "40:suckerpunch",
+    "48:triattack",
+    "60:roost",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:earthquake",
+    "tm:doubleteam",
+    "tutor:icepunch",
+    "tutor:thunderpunch"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.babeau.desc1",
+    "cobblemon.species.babeau.desc2"
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  },
+  "height": 1,
+  "weight": 32,
+  "evolutions": [
+    {
+      "id": "babeau-yandement-level_up_nightslash",
+      "variant": "level_up",
+      "result": "yandement",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "nightslash"
+        }
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "babeau-yandement-level_up_punishment",
+      "variant": "level_up",
+      "result": "yandement",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "punishment"
+        }
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "babeau-karatage-level_up",
+      "variant": "level_up",
+      "result": "karatage fratzkian=false",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 155
+        },
+        {
+          "variant": "has_move_type",
+          "type": "fighting"
+        }
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "babeau-karatage-item_interact",
+      "variant": "item_interact",
+      "result": "karatage fratzkian",
+      "consumeHeldItem": false,
+      "learnableMoves": ["psychocut"],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone"
+    },
+    {
+      "id": "babeau-yandement-item_interact",
+      "variant": "item_interact",
+      "result": "yandement fratzkian",
+      "consumeHeldItem": false,
+      "learnableMoves": ["flashcannon"],
+      "requirements": [],
+      "requiredContext": "cobblemon:dawn_stone"
+    },
+    {
+      "id": "babeau-glieau-item_interact",
+      "variant": "item_interact",
+      "result": "glideau",
+      "consumeHeldItem": false,
+      "learnableMoves": ["overheadstrike"],
+      "requirements": [],
+      "requiredContext": "cobblemon:leaf_stone"
+    }
+  ]
+}

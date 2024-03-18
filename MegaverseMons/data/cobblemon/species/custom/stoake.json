@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "Stoake",
+  "nationalPokedexNumber": 4,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:stalwart"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 40,
+    "special_attack": 55,
+    "special_defence": 50,
+    "speed": 65
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.5
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": true,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:scratch",
+    "4:ember",
+    "6:tailwhip",
+    "8:sandattack",
+    "12:quickattack",
+    "14:bite",
+    "16:babydolleyes",
+    "17:firefang",
+    "19:flamecharge",
+    "20:slash",
+    "24:flamethrower",
+    "28:flameburst",
+    "28:crushclaw",
+    "30:honeclaws",
+    "32:crunch",
+    "34:playrough",
+    "36:inferno",
+    "40:acrobatics",
+    "42:flareblitz"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.stoake.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "stoake_magmink",
+      "variant": "level_up",
+      "result": "magmink",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 85,
+  "aspects": [],
+  "cannotDynamax": false
+}

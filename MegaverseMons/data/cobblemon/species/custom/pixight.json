@@ -1,0 +1,123 @@
+{
+  "implemented": true,
+  "name": "pixight",
+  "nationalPokedexNumber": 5032,
+  "primaryType": "fairy",
+  "secondaryType": "light",
+  "abilities": [
+    "illuminate",
+    "pixilate",
+    "h:drought"
+  ],
+  "baseStats": {
+    "hp": 41,
+    "attack": 35,
+    "defence": 30,
+    "special_attack": 67,
+    "special_defence": 63,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "7-15",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+    }
+   }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 100,
+  "eggCycles": 25,
+  "eggGroups": [
+    "fairy",
+    "bug"
+  ],
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "5:leer",
+    "10:flashlight",
+    "15:drainingkiss",
+    "17:fairywind",
+    "20:singsound",
+    "24:sleeppowder",
+    "26:flashbang",
+    "28:flashpulse",
+    "34:moonblast",
+    "36:flashcannonlight"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.pixight.desc1",
+    "cobblemon.species.pixight.desc2"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 0.4,
+  "weight": 1,
+  "evolutions": [
+    {
+      "id": "pixight-luminix-level_up",
+      "variant": "level_up",
+      "result": "luminix",
+      "learnableMoves": [
+        "trickshot"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "requiredContext": ""
+    }
+	]
+}

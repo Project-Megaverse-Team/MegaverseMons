@@ -1,0 +1,270 @@
+{
+  "implemented": true,
+  "name": "karatage",
+  "nationalPokedexNumber": 5005,
+  "primaryType": "normal",
+  "secondaryType": "fighting",
+  "abilities": [
+    "justified",
+    "cutecharm",
+    "h:dancer"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 125,
+    "defence": 100,
+    "special_attack": 90,
+    "special_defence": 70,
+    "speed": 90
+  },
+  "features": [
+    "fratzkian"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1,
+  "shoulderMountable": false,
+  "forms": [
+    {
+      "name": "Frazki",
+      "primaryType": "cosmic",
+      "secondaryType": "fighting",
+      "abilities": [
+        "dazzling",
+        "rivalry",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 108,
+        "defence": 80,
+        "special_attack": 107,
+        "special_defence": 70,
+        "speed": 100
+      },
+	    "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": false,
+        "avoidsLand": true
+      },
+      "swim": {
+        "canSwimInWater": true
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.6
+      }
+    }
+  },
+      "catchRate": 45,
+      "maleRatio": 1,
+      "baseExperienceYield": 194,
+      "baseFriendship": 220,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 25,
+      "eggGroups": [
+        "fairy",
+        "human_like"
+      ],
+  "drops": {
+    "amount": 6,
+    "entries": [
+         {
+           "item": "minecraft:end_rod",
+           "quantityRange": "1-2",
+           "percentage": 50
+         },
+         {
+           "item": "cobblemon:moon_stone",
+           "quantityRange": "1-2",
+           "percentage": 25
+         },
+         {
+           "item": "minecraft:nether_star",
+           "percentage": 5.0
+         },
+         {
+           "item": "cobblemon:black_belt",
+           "percentage": 25
+         },
+         {
+           "item": "cobblemon:payapa_berry",
+           "percentage": 25
+         }
+       ]
+     },
+      "moves": [
+    "0:cometshower",
+    "0:endeavor",
+    "0:safeguard",
+    "0:fakeout",
+    "0:cosmicpowercosmic",
+    "15:singsound",
+    "18:assurance",
+    "23:faketears",
+    "27:wakeupslap",
+    "30:darkpulse",
+    "32:psychocut",
+    "34:hypervoicesound",
+    "36:cosmicray",
+    "38:playrough",
+    "40:asteroidshot",
+    "42:telekinesis",
+    "44:suckerpunch",
+    "46:thrash",
+    "48:bigbang",
+    "50:closecombat",
+    "52:fly",
+    "54:meteorbeam",
+    "56:gravitycosmic",
+    "60:roost",
+    "64:meteormash",
+    "tm:calmmind",
+    "tm:psychic",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:fireblast",
+    "tm:doubleteam",
+    "tutor:icepunch",
+    "tutor:thunderpunch",
+    "tutor:firepunch"
+      ],
+      "labels": [
+        "custom"
+      ],
+      "aspects": [
+        "fratzkian"
+      ],
+      "preEvolution": "babeau",
+      "evolutions": [],
+      "height": 2,
+      "weight": 1105,
+      "evolutions": [],
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ],
+  "baseExperienceYield": 194,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "fairy",
+    "human_like"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:black_belt",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:coba_berry",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "0:spiritbreak",
+    "0:dragondance",
+    "0:coaching",
+    "0:blazekick",
+    "0:fakeout",
+    "0:achillesheel",
+    "15:singsound",
+    "18:assurance",
+    "23:faketears",
+    "27:wakeupslap",
+    "30:foulplay",
+    "32:reversal",
+    "34:hypervoicesound",
+    "38:playrough",
+    "40:suckerpunch",
+    "42:bramblebash",
+    "44:outrage",
+    "48:triattack",
+    "52:machpunch",
+    "56:closecombat",
+    "60:roost",
+    "64:tripleaxel",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:earthquake",
+    "tm:doubleteam",
+    "tutor:icepunch",
+    "tutor:thunderpunch",
+    "tutor:firepunch"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "pokedex": [
+    "cobblemon.species.karatage.desc1",
+    "cobblemon.species.karatage.desc2"
+  ],
+  "preEvolution": "babeau",
+  "evolutions": [],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.7,
+    "fixed": false
+  },
+  "baseFriendship": 128,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 95,
+  "aspects": [],
+  "evolutions": [],
+  "cannotDynamax": false
+}

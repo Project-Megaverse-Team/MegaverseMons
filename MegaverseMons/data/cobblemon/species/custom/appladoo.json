@@ -1,0 +1,131 @@
+{
+  "implemented": true,
+  "name": "appladoo",
+  "nationalPokedexNumber": 5710,
+  "primaryType": "psychic",
+  "secondaryType": "grass",
+  "abilities": [
+    "analytic",
+    "harvest",
+    "h:frisk"
+  ],
+  "baseStats": {
+    "hp": 51,
+    "attack": 44,
+    "defence": 55,
+    "special_attack": 70,
+    "special_defence": 66,
+    "speed": 49
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal"
+      }
+    },
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "grass"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:apple",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:leppa_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:storedpower",
+    "1:psychup",
+    "1:confusion",
+    "4:quickattack",
+    "8:confuseray",
+    "12:razorleaf",
+    "14:psybeam",
+    "16:leechseed",
+    "18:extrasensory",
+    "20:bulletseed",
+    "24:ripen",
+    "28:worryseed",
+    "32:seedbomb",
+    "36:psychic",
+    "40:trick",
+    "44:painsplit",
+    "egg:bestow",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:disable",
+    "tutor:allyswitch",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:spite",
+    "tutor:synthesis",
+    "tutor:telekinesis",
+    "tutor:trick",
+	"egg:gravapple",
+	"egg:appleacid"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.appladoo.desc"
+  ],
+  "evolutions": [
+    {
+		"id": "appladoo-ringousine",
+        "learnableMoves": [],
+		"variant": "item_interact",
+        "result": "ringousine",
+		"consumeHeldItem": false,
+		"learnableMoves": [],
+		"requirements": [],
+		"requiredContext": "cobblemon:red_apricorn"
+    }
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.9,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 50,
+  "aspects": [],
+  "cannotDynamax": false
+}

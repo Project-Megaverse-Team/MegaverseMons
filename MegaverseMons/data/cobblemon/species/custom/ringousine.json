@@ -1,0 +1,122 @@
+{
+  "implemented": true,
+  "name": "ringousine",
+  "nationalPokedexNumber": 5711,
+  "primaryType": "psychic",
+  "secondaryType": "grass",
+  "abilities": [
+    "analytic",
+    "harvest",
+    "h:frisk"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 122,
+    "special_attack": 58,
+    "special_defence": 75,
+    "speed": 84
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.2
+      },
+      "fly": {
+        "canFly": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal"
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "grass"
+  ],
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:apple",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:leppa_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:storedpower",
+    "1:confuseray",
+    "1:ripen",
+    "1:moonblast",
+    "1:quickattack",
+    "1:psychup",
+    "12:razorleaf",
+    "16:leechseed",
+    "20:bulletseed",
+    "24:scaryface",
+    "28:worryseed",
+    "32:seedbomb",
+    "36:psychic",
+    "40:trick",
+    "44:painsplit",
+    "48:futuresight",
+    "tutor:allyswitch",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:grassyglide",
+    "tutor:magiccoat",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:spite",
+    "tutor:synthesis",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:worryseed"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.ringousine.desc"
+  ],
+  "preEvolution": "appladoo",
+  "evolutions": [],
+  "baseScale": 0.57,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.6,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 125,
+  "aspects": [],
+  "cannotDynamax": false
+}

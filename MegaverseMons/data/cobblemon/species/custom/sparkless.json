@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "sparkless",
+  "nationalPokedexNumber": 5033,
+  "primaryType": "fairy",
+  "secondaryType": "light",
+  "abilities": [
+    "illuminate",
+    "pixilate",
+    "h:drought"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 65,
+    "defence": 55,
+    "special_attack": 103,
+    "special_defence": 132,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "7-15",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.4
+    }
+   }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "eggCycles": 25,
+  "eggGroups": [
+    "fairy",
+    "bug"
+  ],
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "quantityRange": "2-4"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "0:sunnyday",
+    "0:amnesia",
+    "1:tackle",
+    "5:leer",
+    "10:flashlight",
+    "15:drainingkiss",
+    "17:fairywind",
+    "18:singsound",
+    "20:sleeppowder",
+    "22:flashbang",
+    "24:flashpulse",
+    "30:trickshot",
+    "32:magicalleaf",
+    "36:calmmind",
+    "38:powergem",
+    "40:mysticfire",
+    "42:dazzlinggleam",
+    "44:reflect",
+    "46:lightscreen",
+    "48:nastyplot",
+    "50:flashcannon",
+    "52:solarbeam",
+    "54:trickroom",
+    "56:moonlight",
+    "58:moonblast",
+    "60:storedpower",
+    "64:supernova"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.sparkless.desc1",
+    "cobblemon.species.sparkless.desc2"
+  ],
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.6,
+    "height": 2.3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 1
+  },
+  "height": 0.6,
+  "weight": 1,
+      "preEvolution": "luminix",
+  "evolutions": []
+}

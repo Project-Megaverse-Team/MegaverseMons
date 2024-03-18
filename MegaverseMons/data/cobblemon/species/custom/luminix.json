@@ -1,0 +1,127 @@
+{
+  "implemented": true,
+  "name": "luminix",
+  "nationalPokedexNumber": 5032,
+  "primaryType": "fairy",
+  "secondaryType": "light",
+  "abilities": [
+    "illuminate",
+    "pixilate",
+    "h:drought"
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 52,
+    "defence": 46,
+    "special_attack": 81,
+    "special_defence": 99,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "7-15",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+    }
+   }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 100,
+  "eggCycles": 25,
+  "eggGroups": [
+    "fairy",
+    "bug"
+  ],
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "cobblemon:rindo_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:shiny_stone",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "0:sunnyday",
+    "0:amnesia",
+    "1:tackle",
+    "5:leer",
+    "10:flashlight",
+    "15:drainingkiss",
+    "17:fairywind",
+    "18:singsound",
+    "20:sleeppowder",
+    "22:flashbang",
+    "24:flashpulse",
+    "30:trickshot",
+    "32:magicalleaf",
+    "34:dazzlinggleam",
+    "36:reflect",
+    "38:nastyplot",
+    "40:flashcannon",
+    "42:moonlight",
+    "44:moonblast"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.luminix.desc1",
+    "cobblemon.species.luminix.desc2"
+  ],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 1
+  },
+  "height": 0.6,
+  "weight": 1,
+      "preEvolution": "pixight",
+  "evolutions": [
+
+    {
+      "id": "luminix-sparkless-item_interact",
+      "variant": "item_interact",
+      "result": "sparkless",
+      "consumeHeldItem": false,
+      "learnableMoves": ["solarbeam"],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone"
+    }
+  ]
+}

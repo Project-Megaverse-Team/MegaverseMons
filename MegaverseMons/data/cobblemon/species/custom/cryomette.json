@@ -1,0 +1,139 @@
+{
+  "implemented": true,
+  "name": "Cryomette",
+  "nationalPokedexNumber": 5004,
+  "primaryType": "ice",
+  "secondaryType": "fairy",
+  "abilities": [
+    "vitalspirit",
+    "thermalexchange",
+    "h:permafrost"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 105,
+    "defence": 70,
+    "special_attack": 130,
+    "special_defence": 55,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.4
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 194,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "cobblemon:never_melt_ice",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:ice_stone",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:babiri_berry",
+        "percentage": 10
+      }
+]
+  },
+  "moves": [
+    "0:frostslash",
+    "0:amnesia",
+    "0:endure",
+    "0:fakeout",
+    "0:icepunch",
+    "0:naturepower",
+    "1:pound",
+    "1:rage",
+    "1:superpower",
+    "1:safeguard",
+    "1:thunderpunch",
+    "1:tickle",
+    "8:disarmingvoice",
+    "12:babydolleyes",
+    "15:singsound",
+    "18:assurance",
+    "23:faketears",
+    "25:wakeupslap",
+    "30:icebeam",
+    "32:doubleedge",
+    "34:playrough",
+    "38:taunt",
+    "40:airslash",
+    "42:iceball",
+    "44:tailwind",
+    "46:moonblast",
+    "46:frostbite",
+    "50:endeavor",
+    "52:aquajet",
+    "54:icehammer",
+    "56:blizzard",
+    "64:aquacutter",
+    "68:roost",
+    "70:tripleaxel",
+    "85:sheercold",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:fling",
+    "tm:doubleteam"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.cryomette.desc1",
+    "cobblemon.species.cryomette.desc2"
+  ],
+  "baseScale": 0.7,
+  "preEvolution": "babette",
+  "evolutions": [],
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 66,
+  "cannotDynamax": false
+}

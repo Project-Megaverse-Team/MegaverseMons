@@ -1,0 +1,227 @@
+{
+  "implemented": true,
+  "name": "babette",
+  "nationalPokedexNumber": 5000,
+  "primaryType": "fairy",
+  "abilities": [
+    "cutecharm",
+    "rivalry",
+    "h:serenegrace"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 40,
+    "special_attack": 55,
+    "special_defence": 60,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "shoulderMountable": true,
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+      "catchRate": 128,
+      "maleRatio": 0,
+      "baseExperienceYield": 57,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 25,
+      "eggGroups": [
+        "undiscovered"
+      ],
+  "moves": [
+    "0:disarmingvoice",
+    "0:pound",
+    "5:trickshot",
+    "10:babble",
+    "15:singsound",
+    "18:assurance",
+    "23:faketears",
+    "27:wakeupslap",
+    "24:foulplay",
+    "28:hypervoicesound",
+    "30:punishment",
+    "34:nightslash",
+    "38:playrough",
+    "40:suckerpunch",
+    "48:moonblast",
+    "60:roost",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:earthquake",
+    "tm:doubleteam",
+    "tutor:icepunch",
+    "tutor:thunderpunch"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.babette.desc1",
+    "cobblemon.species.babette.desc2"
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.8,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 32,
+  "evolutions": [
+    {
+      "id": "babette-yanditrix-level_up_nightslash",
+      "variant": "level_up",
+      "result": "yanditrix",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "nightslash"
+        }
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "babette-yanditrix-level_up_punishment",
+      "variant": "level_up",
+      "result": "yanditrix",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "punishment"
+        }
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "babette-sailine-level_up",
+      "variant": "level_up",
+      "result": "sailine fratzkian=false",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 155
+        },
+        {
+          "variant": "has_move_type",
+          "type": "fighting"
+        }
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "babette-sailine-item_interact",
+      "variant": "item_interact",
+      "result": "sailine fratzkian",
+      "consumeHeldItem": false,
+      "learnableMoves": ["psyshock"],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone"
+    },
+    {
+      "id": "babette-yanditrix-item_interact",
+      "variant": "item_interact",
+      "result": "yanditrix fratzkian",
+      "consumeHeldItem": false,
+      "learnableMoves": ["flashcannonlight"],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone"
+    },
+    {
+      "id": "babette-cryomette-item_interact",
+      "variant": "item_interact",
+      "result": "cryomette",
+      "consumeHeldItem": false,
+      "learnableMoves": ["frostslash"],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone"
+    },
+    {
+      "id": "babette-oniette-item_interact",
+      "variant": "item_interact",
+      "result": "oniette",
+      "consumeHeldItem": false,
+      "learnableMoves": ["ghastlywail"],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone"
+    },
+    {
+      "id": "babette-oniette-enderman-item_interact",
+      "variant": "item_interact",
+      "result": "oniette doll=enderman",
+      "consumeHeldItem": true,
+      "learnableMoves": ["ghastlywail"],
+            "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:black_wool"
+        }
+      ],
+      "requiredContext": "cobblemon:dusk_stone"
+    },
+    {
+      "id": "babette-oniette-creeper-item_interact",
+      "variant": "item_interact",
+      "result": "oniette doll=creeper",
+      "consumeHeldItem": true,
+      "learnableMoves": ["ghastlywail"],
+            "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:green_wool"
+        }
+      ],
+      "requiredContext": "cobblemon:dusk_stone"
+    }
+  ]
+}

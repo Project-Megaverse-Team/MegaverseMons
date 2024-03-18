@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "Volcarine",
+  "nationalPokedexNumber": 6,
+  "primaryType": "fire",
+  "secondaryType": "dark",
+  "abilities": [
+    "blaze",
+    "h:stalwart"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 125,
+    "defence": 60,
+    "special_attack": 70,
+    "special_defence": 95,
+    "speed": 110
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.375
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "0:crushclaw",
+    "1:growl",
+    "1:scratch",
+    "5:ember",
+    "6:tailwhip",
+    "8:sandattack",
+    "12:quickattack",
+    "14:bite",
+    "16:babydolleyes",
+    "17:firefang",
+    "19:flamecharge",
+    "24:flamethrower",
+    "26:flameburst",
+    "30:slash",
+    "34:honeclaws",
+    "35:crushclaw",
+    "36:crunch",
+    "38:swordsdance",
+    "40:playrough",
+    "42:inferno",
+    "44:irontail",
+    "54:acrobatics",
+    "56:flareblitz",
+    "58:closecombat"
+  ],
+  "labels": [
+    "custome"
+  ],
+  "pokedex": [
+    "cobblemon.species.volcarine.desc"
+  ],
+  "preEvolution": "magmink",
+  "evolutions": [],
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 0.7,
+    "height": 2.2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 125,
+  "aspects": [],
+  "cannotDynamax": false
+}

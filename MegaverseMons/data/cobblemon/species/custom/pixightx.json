@@ -1,0 +1,103 @@
+{
+  "implemented": true,
+  "name": "pixightx",
+  "nationalPokedexNumber": 5032,
+  "primaryType": "electric",
+  "secondaryType": "flying",
+  "abilities": [
+    "voltabsorb",
+    "static",
+    "h:transistor"
+  ],
+  "baseStats": {
+    "hp": 41,
+    "attack": 63,
+    "defence": 30,
+    "special_attack": 67,
+    "special_defence": 35,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "7-15",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.4,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.4
+    }
+   }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 100,
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "5:leer",
+    "10:nuzzle",
+    "15:drainingkiss",
+    "17:fairywind",
+    "20:singsound",
+    "24:thunderwave",
+    "26:thunderbolt",
+    "28:voltswitch",
+    "34:thunder",
+    "36:flashcannonlight"
+  ],
+  "labels": [
+    "xenoverse",
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.pixightx.desc1",
+    "cobblemon.species.pixightx.desc2"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 0.4,
+  "weight": 1,
+  "evolutions": [
+    {
+      "id": "pixightx-luminixx-level_up",
+      "variant": "level_up",
+      "result": "luminixx",
+      "learnableMoves": [
+        "charge"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ],
+      "requiredContext": ""
+    }
+	]
+}

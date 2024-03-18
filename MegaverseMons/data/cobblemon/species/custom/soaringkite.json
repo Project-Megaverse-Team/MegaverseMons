@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "Soaring Kite",
+  "nationalPokedexNumber": 5105,
+  "primaryType": "flying",
+  "secondaryType": "grass",
+  "abilities": [
+    "protosynthesis"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 120,
+    "defence": 60,
+    "special_attack": 68,
+    "special_defence": 108,
+    "speed": 154
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.45,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.5
+      }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 285,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:babiri_berry"
+      },
+      {
+        "item": "cobblemon:sharp_beak"
+      },
+      {
+        "item": "minecraft:elytra",
+        "percentage": 25
+      }
+]
+  },
+  "moves": [
+    "1:overheadstrike",
+    "1:drainingkiss",
+    "1:pound",
+    "1:attract",
+    "1:aromatherapy",
+    "1:agility",
+    "1:fakeout",
+    "1:leafdarts",
+    "8:fairywind",
+    "12:babydolleyes",
+    "15:charm",
+    "18:wingattack",
+    "23:tickle",
+    "25:faketears",
+    "28:glide",
+    "30:leafblade",
+    "32:headbutt",
+    "34:petaldance",
+    "38:playrough",
+    "40:teeterdance",
+    "42:lunge",
+    "45:triattack",
+    "48:uturn",
+    "53:dualwingbeat",
+    "60:roost",
+    "70:bravebird",
+    "80:doubleedge",
+    "77:whirlwind",
+    "84:leafstorm",
+    "91:thrash",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:fling",
+    "tm:doubleteam"
+  ],
+  "labels": [
+    "custom",
+    "paradox"
+  ],
+  "pokedex": [
+    "cobblemon.species.soaringwing.desc1",
+    "cobblemon.species.soaringwing.desc2"
+  ],
+  "baseScale": 0.8,
+  "evolutions": [],
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.8,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 66,
+  "cannotDynamax": false
+}
