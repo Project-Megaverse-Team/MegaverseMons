@@ -1,0 +1,82 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.lemion",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "oracket",
+					"pivot": [-0.5, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "oracket",
+					"pivot": [0.1, 3, 0],
+					"cubes": [
+						{"origin": [-6.9, 29, -6], "size": [14, 11, 14], "uv": [0, 22]},
+						{"origin": [-7.9, 40, -11], "size": [16, 2, 20], "uv": [0, 0]},
+						{"origin": [-6.9, 42, -6], "size": [14, 5, 14], "uv": [42, 33]},
+						{"origin": [28.1, 34, 0], "size": [5, 7, 0], "pivot": [0.1, 1, -1], "rotation": [0, 0, -45], "uv": [0, 0]},
+						{"origin": [-32.9, 34, 0], "size": [5, 7, 0], "pivot": [0.1, 1, -1], "rotation": [0, 0, 45], "uv": [0, 7]},
+						{"origin": [-1.9, 47, 5.1], "size": [4, 11, 16], "uv": [56, 6]},
+						{"origin": [-1.9, 41, 12.1], "size": [4, 6, 9], "uv": [51, 79]},
+						{"origin": [-1.9, 42, 1.1], "size": [4, 11, 16], "pivot": [0.1, 3, 0], "rotation": [0, -15, 0], "uv": [40, 52]},
+						{"origin": [-1.9, 36, 7.1], "size": [4, 6, 10], "pivot": [0.1, 3, 0], "rotation": [0, -15, 0], "uv": [80, 0]},
+						{"origin": [-1.9, 36, 8.1], "size": [4, 6, 9], "pivot": [0.1, 3, 0], "rotation": [0, 15, 0], "uv": [25, 79]},
+						{"origin": [-1.9, 42, 1.1], "size": [4, 11, 16], "pivot": [0.1, 3, 0], "rotation": [0, 15, 0], "uv": [0, 47]}
+					]
+				},
+				{
+					"name": "arms",
+					"parent": "oracket",
+					"pivot": [-0.5, 9, 0],
+					"cubes": [
+						{"origin": [-10.5, 25, -1], "size": [7, 4, 4], "uv": [90, 52]},
+						{"origin": [-17.5, 25, -1], "size": [7, 4, 4], "uv": [24, 54]},
+						{"origin": [-23.5, 27, -1], "size": [6, 2, 5], "uv": [93, 61]},
+						{"origin": [-19.5, 27, -4], "size": [2, 2, 3], "uv": [10, 0]},
+						{"origin": [3.5, 25, -1], "size": [7, 4, 4], "uv": [96, 17]},
+						{"origin": [10.5, 25, -1], "size": [7, 4, 4], "uv": [95, 87]},
+						{"origin": [17.5, 27, -1], "size": [6, 2, 5], "uv": [96, 25]},
+						{"origin": [17.5, 27, -4], "size": [2, 2, 3], "uv": [10, 5]}
+					]
+				},
+				{
+					"name": "torso",
+					"parent": "oracket",
+					"pivot": [-0.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.5, 21, -2], "size": [7, 8, 6], "uv": [84, 33]},
+						{"origin": [-4.5, 15, -3], "size": [9, 6, 8], "uv": [64, 52]},
+						{"origin": [-5.5, 7, -4], "size": [11, 8, 10], "uv": [70, 69]}
+					]
+				},
+				{
+					"name": "legs",
+					"parent": "oracket",
+					"pivot": [-0.5, 0, 0],
+					"cubes": [
+						{"origin": [-5.5, 0, -3], "size": [5, 7, 8], "uv": [0, 88]},
+						{"origin": [0.5, 0, -3], "size": [5, 7, 8], "uv": [77, 87]}
+					]
+				},
+				{
+					"name": "racket",
+					"parent": "oracket",
+					"pivot": [-0.5, 0, 0],
+					"cubes": [
+						{"origin": [-20.5, 25, -10], "size": [0, 2, 16], "uv": [24, 36]},
+						{"origin": [-20.5, 20, -27], "size": [0, 12, 17], "uv": [0, 57]}
+					]
+				}
+			]
+		}
+	]
+}
