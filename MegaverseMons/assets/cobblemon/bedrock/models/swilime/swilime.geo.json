@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.lemion",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "swilime",
+					"pivot": [-0.5, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "swilime",
+					"pivot": [0, 3, 0],
+					"cubes": [
+						{"origin": [-7, 29, -6], "size": [14, 14, 14], "uv": [0, 0]},
+						{"origin": [-9, 41, -1], "size": [4, 4, 4], "uv": [74, 0]},
+						{"origin": [-14, 31, 0], "size": [7, 12, 7], "uv": [28, 43]},
+						{"origin": [8, 29, 2], "size": [6, 4, 4], "pivot": [0, 3, 0], "rotation": [0, 0, -45], "uv": [66, 71]},
+						{"origin": [5, 41, -1], "size": [4, 4, 4], "uv": [26, 28]},
+						{"origin": [7, 31, 0], "size": [7, 12, 7], "uv": [0, 43]},
+						{"origin": [-14, 29, 2], "size": [6, 4, 4], "pivot": [0, 3, 0], "rotation": [0, 0, 45], "uv": [22, 70]}
+					]
+				},
+				{
+					"name": "arms",
+					"parent": "swilime",
+					"pivot": [-0.5, 9, 0],
+					"cubes": [
+						{"origin": [-10.5, 25, -1], "size": [7, 4, 4], "uv": [26, 62]},
+						{"origin": [-17.5, 25, -1], "size": [7, 4, 4], "uv": [42, 0]},
+						{"origin": [-23.5, 27, -1], "size": [6, 2, 5], "uv": [69, 64]},
+						{"origin": [-19.5, 27, -4], "size": [2, 2, 3], "uv": [0, 0]},
+						{"origin": [3.5, 25, -1], "size": [7, 4, 4], "uv": [44, 69]},
+						{"origin": [10.5, 25, -1], "size": [7, 4, 4], "uv": [66, 49]},
+						{"origin": [17.5, 27, -1], "size": [6, 2, 5], "uv": [0, 70]},
+						{"origin": [17.5, 27, -4], "size": [2, 2, 3], "uv": [0, 5]}
+					]
+				},
+				{
+					"name": "torso",
+					"parent": "swilime",
+					"pivot": [-0.5, 0, 0],
+					"cubes": [
+						{"origin": [-4.5, 22, -3], "size": [9, 7, 8], "uv": [34, 28]},
+						{"origin": [-3.5, 20, -2], "size": [7, 2, 6], "uv": [0, 62]},
+						{"origin": [-4.5, 13, -3], "size": [9, 7, 8], "uv": [0, 28]}
+					]
+				},
+				{
+					"name": "legs",
+					"parent": "swilime",
+					"pivot": [-0.5, 0, 0],
+					"cubes": [
+						{"origin": [-5.5, 6, -3], "size": [5, 7, 8], "uv": [56, 0]},
+						{"origin": [-5.5, 0, -3], "size": [5, 6, 8], "uv": [60, 35]},
+						{"origin": [0.5, 6, -3], "size": [5, 7, 8], "uv": [48, 54]},
+						{"origin": [0.5, 0, -3], "size": [5, 6, 8], "uv": [60, 15]}
+					]
+				}
+			]
+		}
+	]
+}
