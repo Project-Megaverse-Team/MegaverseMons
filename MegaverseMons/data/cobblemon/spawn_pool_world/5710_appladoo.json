@@ -15,8 +15,8 @@
             "level": "5-38",
             "weight": 10,
             "condition": {
-                "biomes": [
                 "canSeeSky": true,
+                "biomes": [
                     "#cobblemon:is_forest"
                 ],
                 "timeRange": "day"
