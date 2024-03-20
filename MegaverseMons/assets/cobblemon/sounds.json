@@ -184,5 +184,35 @@
   },
   "pokemon.spritepixel.cry": {
     "sounds": [ { "name": "pokemon/spritepixel/spritepixel_cry", "volume": 0.8 } ]
+  },
+  "pokemon.teentric.ambient": {
+    "sounds": [ "pokemon/teentric/teentric_ambient" ]
+  },
+  "pokemon.teentric.cry": {
+    "sounds": [ { "name": "pokemon/teentric/teentric_cry", "volume": 0.8 } ]
+  },
+  "pokemon.lemion.ambient": {
+    "sounds": [ "pokemon/lemion/lemion_ambient" ]
+  },
+  "pokemon.lemion.cry": {
+    "sounds": [ { "name": "pokemon/lemion/lemion_cry", "volume": 0.8 } ]
+  },
+  "pokemon.oracket.ambient": {
+    "sounds": [ "pokemon/oracket/oracket_ambient" ]
+  },
+  "pokemon.oracket.cry": {
+    "sounds": [ { "name": "pokemon/oracket/oracket_cry", "volume": 0.8 } ]
+  },
+  "pokemon.swilime.ambient": {
+    "sounds": [ "pokemon/swilime/swilime_ambient" ]
+  },
+  "pokemon.swilime.cry": {
+    "sounds": [ { "name": "pokemon/swilime/swilime_cry", "volume": 0.8 } ]
+  },
+  "pokemon.graspeed.ambient": {
+    "sounds": [ "pokemon/graspeed/graspeed_ambient" ]
+  },
+  "pokemon.graspeed.cry": {
+    "sounds": [ { "name": "pokemon/graspeed/graspeed_cry", "volume": 0.8 } ]
   }
 }
