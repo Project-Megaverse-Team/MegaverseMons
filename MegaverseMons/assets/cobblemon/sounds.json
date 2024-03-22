@@ -161,6 +161,12 @@
   "pokemon.oniette.bittersweet.cry": {
     "sounds": [ { "name": "pokemon/oniette/oniette_cry", "volume": 0.8 } ]
   },
+  "pokemon.liength.ambient": {
+    "sounds": [ "pokemon/liength/liength_ambient" ]
+  },
+  "pokemon.liength.cry": {
+    "sounds": [ { "name": "pokemon/liength/liength_cry", "volume": 0.8 } ]
+  },
   "pokemon.manixie.ambient": {
     "sounds": [ "pokemon/manixie/manixie_ambient" ]
   },
@@ -172,6 +178,12 @@
   },
   "pokemon.kagurette.cry": {
     "sounds": [ { "name": "pokemon/kagurette/kagurette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.kamieau.ambient": {
+    "sounds": [ "pokemon/kamieau/kamieau_ambient" ]
+  },
+  "pokemon.kamieau.cry": {
+    "sounds": [ { "name": "pokemon/kamieau/kamieau_cry", "volume": 0.8 } ]
   },
   "pokemon.soaringkite.ambient": {
     "sounds": [ "pokemon/soaringkite/soaringkite_ambient" ]
