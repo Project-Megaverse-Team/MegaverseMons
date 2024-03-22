@@ -58,7 +58,11 @@
   "cobblemon.species.swilime.name": "Swilime",
   "cobblemon.species.graspeed.name": "Graspeed",
   "cobblemon.species.liength.name": "Liength",
+  "cobblemon.species.liength.desc1": "Liength likes to roar against stronger Pokémon as a way to challenge them since it ignores the danger. It constantly lifts boulders that are twice its size.",
+  "cobblemon.species.liength.desc2": "Liength are commonly seen around Pyroar recorded ever since medieval times. Why they have such a mutual connection, if there is one at all, is a point of debate. But it's said it was the source of inspiration for the Strength card in the tarot.",
   "cobblemon.species.manixie.name": "Manixie",
+  "cobblemon.species.manixie.desc1": "Ancient stories tell about this Pokemon being in company of a Manaight and Managic, who fought ancient evil that forged a flying fortress.",
+  "cobblemon.species.manixie.desc2": "Manixie was barely visible during ancient times, it was thought to be a sprite of the woods. Likes to prank people in the woods often.",
   "cobblemon.species.soaringkite.name": "Soaring Kite",
   "cobblemon.species.spritepixel.name": "Sprite Pixel"
 }
