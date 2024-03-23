@@ -1,4 +1,22 @@
 {
+  "pokemon.stoake.ambient": {
+    "sounds": [ "pokemon/stoake/stoake_ambient" ]
+  },
+  "pokemon.stoake.cry": {
+    "sounds": [ { "name": "pokemon/stoake/stoake_cry", "volume": 0.8 } ]
+  },
+  "pokemon.magmink.ambient": {
+    "sounds": [ "pokemon/magmink/magmink_ambient" ]
+  },
+  "pokemon.magmink.cry": {
+    "sounds": [ { "name": "pokemon/magmink/magmink_cry", "volume": 0.8 } ]
+  },
+  "pokemon.volcarine.ambient": {
+    "sounds": [ "pokemon/volcarine/volcarine_ambient" ]
+  },
+  "pokemon.volcarine.cry": {
+    "sounds": [ { "name": "pokemon/volcarine/volcarine_cry", "volume": 0.8 } ]
+  },
   "pokemon.xylobone.ambient": {
     "sounds": [ "pokemon/xylobone/xylobone_ambient" ]
   },
