@@ -64,5 +64,13 @@
   "cobblemon.species.manixie.desc1": "Ancient stories tell about this Pokemon being in company of a Manaight and Managic, who fought ancient evil that forged a flying fortress.",
   "cobblemon.species.manixie.desc2": "Manixie was barely visible during ancient times, it was thought to be a sprite of the woods. Likes to prank people in the woods often.",
   "cobblemon.species.soaringkite.name": "Soaring Kite",
-  "cobblemon.species.spritepixel.name": "Sprite Pixel"
+  "cobblemon.species.spritepixel.name": "Sprite Pixel",
+  "advancements.cobblemon.evolve_bigfamily": "A Big Family",
+  "advancements.cobblemon.evolve_bigfamily.description": "Evolve Babeau and Babette into each 4 different forms",
+  "advancements.cobblemon.alteia_catch": "Surprise Duo of Alteia",
+  "advancements.cobblemon.alteia_catch.description": "Catch both Mystical Manixie and Broken Bond Sailine.",
+  "advancements.cobblemon.alteia_catch_manixie": "Secret of Mana",
+  "advancements.cobblemon.alteia_catch_manixie.description": "Catch a Mystical Manixie.",
+  "advancements.cobblemon.alteia_catch_sailine": "Sailine Wants to Die Trying",
+  "advancements.cobblemon.alteia_catch_sailine.description": "Catch a Broken Bond Sailine."
 }
