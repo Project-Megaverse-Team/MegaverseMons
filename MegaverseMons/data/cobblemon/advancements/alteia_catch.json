@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"item": "cobblemon:pokemon_model",
+			"nbt": "{\"species\":\"cobblemon:manixie\",\"aspects\":[\"mystical\"]}"
+		},
+		"title": {
+			"translate": "advancements.cobblemon.alteia_catch"
+		},
+		"description": {
+			"translate": "advancements.cobblemon.alteia_catch.description"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "cobblemon:first_catch",
+	"criteria": {
+		"alteia_manixie": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"pokemon": "cobblemon:manixie",
+				"aspects": ["mystical"]
+			}
+		},
+		"alteia_sailine": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"pokemon": "cobblemon:sailine",
+				"aspects": ["broken_bond"]
+			}
+		}
+	},
+	"requirements": [
+		["alteia_manixie"],
+		["alteia_sailine"]
+	],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": false
+}

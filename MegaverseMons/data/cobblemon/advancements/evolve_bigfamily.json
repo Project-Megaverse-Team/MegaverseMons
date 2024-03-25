@@ -1,0 +1,76 @@
+{
+	"parent": "cobblemon:first_evolution",
+	"display": {
+		"icon": {
+			"item": "cobblemon:pokemon_model",
+			"nbt": "{\"species\":\"cobblemon:babette\",\"aspects\":[\"female\"]}"
+		},
+		"title": {
+			"translate": "advancements.cobblemon.evolve_bigfamily"
+		},
+		"description": {
+			"translate": "advancements.cobblemon.evolve_bigfamily.description"
+		},
+		"hidden": false
+	},
+	"criteria": {
+		"evolve_karatage": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:babeau",
+				"evolution": "cobblemon:karatage"
+			}
+		},
+		"evolve_yandement": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:babeau",
+				"evolution": "cobblemon:yandement"
+			}
+		},
+		"evolve_glideau": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:babeau",
+				"evolution": "cobblemon:glideau"
+			}
+		},
+		"evolve_sailine": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:babette",
+				"evolution": "cobblemon:sailine"
+			}
+		},
+		"evolve_yanditrix": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:babette",
+				"evolution": "cobblemon:yanditrix"
+			}
+		},
+		"evolve_cryomette": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:babette",
+				"evolution": "cobblemon:cryomette"
+			}
+		},
+		"evolve_oniette": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:babette",
+				"evolution": "cobblemon:oniette"
+			}
+		}
+	},
+	"requirements": [
+		["evolve_karatage"],
+		["evolve_yandement"],
+		["evolve_glideau"],
+		["evolve_sailine"],
+		["evolve_yanditrix"],
+		["evolve_cryomette"],
+		["evolve_oniette"]
+	]
+}

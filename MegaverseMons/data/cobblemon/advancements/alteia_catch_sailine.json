@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "cobblemon:pokemon_model",
+			"nbt": "{\"species\":\"cobblemon:sailine\",\"aspects\":[\"broken_bond\"]}"
+		},
+		"title": {
+			"translate": "advancements.cobblemon.alteia_catch_sailine"
+		},
+		"description": {
+			"translate": "advancements.cobblemon.alteia_catch_sailine.description"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "cobblemon:first_catch",
+	"criteria": {
+		"alteia_sailine1": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"pokemon": "cobblemon:sailine",
+				"aspects": ["broken_bond"]
+			}
+		}
+	},
+	"requirements": [
+		["alteia_sailine1"]
+	],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}

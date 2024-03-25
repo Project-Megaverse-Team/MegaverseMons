@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "cobblemon:pokemon_model",
+			"nbt": "{\"species\":\"cobblemon:manixie\",\"aspects\":[\"mystical\"]}"
+		},
+		"title": {
+			"translate": "advancements.cobblemon.alteia_catch_manixie"
+		},
+		"description": {
+			"translate": "advancements.cobblemon.alteia_catch_manixie.description"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "cobblemon:first_catch",
+	"criteria": {
+		"alteia_manixie1": {
+			"trigger": "cobblemon:aspects_collected",
+			"conditions": {
+				"pokemon": "cobblemon:manixie",
+				"aspects": ["mystical"]
+			}
+		}
+	},
+	"requirements": [
+		["alteia_manixie1"]
+	],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}
