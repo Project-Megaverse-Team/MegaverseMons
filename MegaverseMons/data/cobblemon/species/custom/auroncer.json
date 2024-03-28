@@ -15,6 +15,9 @@
     "special_defence": 87,
     "speed": 100
   },
+  "features": [
+    "agarsian"
+  ],
   "behaviour": {
     "resting": {
       "canSleep": true,
@@ -156,10 +159,197 @@
     "mythical",
     "legendary"
   ],
+  "aspects": [],
   "pokedex": [
     "cobblemon.species.auroncer.desc1",
     "cobblemon.species.auroncer.desc2"
   ],
+  "forms": [
+  {
+  "name": "auroncer_agarsa",
+  "nationalPokedexNumber": 5150,
+  "primaryType": "grass",
+  "secondaryType": "light",
+  "abilities": [
+    "drought"
+  ],
+  "baseStats": {
+    "hp": 82,
+    "attack": 113,
+    "defence": 77,
+    "special_attack": 117,
+    "special_defence": 81,
+    "speed": 130
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed"
+      },
+      {
+        "item": "minecraft:torchflower_seeds",
+        "quantityRange": "2-2"
+      },
+      {
+        "item": "minecraft:sunflower",
+        "quantityRange": "2-2"
+      }
+]
+  },
+  "moves": [
+    "0:aromatherapy",
+    "0:grassyterrain",
+    "0:fakeout",
+    "0:tackle",
+    "1:branchpoke",
+    "4:leafage",
+    "8:furyswipes",
+    "16:quickguard",
+    "24:magicalleaf",
+    "32:flashbang",
+    "36:petaldance",
+    "40:synthesis",
+    "48:sunnyday",
+    "56:honeclaws",
+    "64:solarbeam",
+    "72:powerwhip",
+    "80:agilitycosmic",
+    "88:petalblizzard",
+    "96:aurasphere",
+    "tm:dragonclaw",
+    "tm:waterpulse",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:sunny day",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:gigadrain",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solar beam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:skillswap",
+    "tm:snatch",
+    "tm:overheat",
+    "tm:gigaimpact",
+    "tm:solarblade",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:explosion",
+    "tm:charm",
+    "tm:willowisp",
+    "tm:swift",
+    "tm:helpinghand",
+    "tm:revenge",
+    "tm:imprison",
+    "tm:payback",
+    "tm:fling",
+    "tm:lowkick",
+    "tm:reversal",
+    "tm:drainpunch",
+    "tm:shadowclaw",
+    "tm:poisonjab",
+    "tm:acrobatics",
+    "tm:retaliate",
+    "tm:mistyterrain",
+    "tm:substitute",
+    "tm:swordsdance",
+    "tm:swagger",
+    "tm:falseswipe",
+    "tm:aquacutter",
+    "tm:counter",
+    "tm:auroraveil",
+    "tm:chillingwater",
+    "tm:mistyfog",
+    "tm:watersport",
+    "tm:slash",
+    "tm:morningsun",
+    "tm:moonlight",
+    "tm:nastyplot"
+  ],
+  "labels": [
+    "custom",
+    "mythical",
+    "legendary"
+  ],
+      "aspects": [
+        "agarsian"
+      ],
+  "pokedex": [
+    "cobblemon.species.auroncer_agarsa.desc1",
+    "cobblemon.species.auroncer_agarsa.desc2"
+  ],
+  "baseScale": 1,
+  "evolutions": [],
+  "hitbox": {
+    "width": 0.7,
+    "height": 2.2,
+    "fixed": false
+  },
+  "baseFriendship": 0,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 66,
+  "cannotDynamax": false
+}
+],
   "baseScale": 1,
   "evolutions": [],
   "hitbox": {
