@@ -83,6 +83,12 @@
   "pokemon.yanditrix_psycho.cry": {
     "sounds": [ { "name": "pokemon/yanditrix/yanditrix_psycho_cry", "volume": 0.8 } ]
   },
+    "pokemon.obstagoon.hoenn.ambient": {
+    "sounds": [ "pokemon/obstagoon/obstagoon_ambient" ]
+  },
+  "pokemon.obstagoon.hoenn.cry": {
+    "sounds": [ { "name": "pokemon/obstagoon/obstagoon_cry", "volume": 0.8 } ]
+  },
   "pokemon.linernel.ambient": {
     "sounds": [ "pokemon/linernel/linernel_ambient" ]
   },
@@ -154,6 +160,18 @@
   },
   "pokemon.ringousine.cry": {
     "sounds": [ { "name": "pokemon/ringousine/ringousine_cry", "volume": 0.8 } ]
+  },
+  "pokemon.buizel.valhansen.ambient": {
+    "sounds": [ "pokemon/buizel/buizel_ambient" ]
+  },
+  "pokemon.buizel.valhansen.cry": {
+    "sounds": [ { "name": "pokemon/buizel/buizel_cry", "volume": 0.8 } ]
+  },
+  "pokemon.floatzel.valhansen.ambient": {
+    "sounds": [ "pokemon/floatzel/floatzel_ambient" ]
+  },
+  "pokemon.floatzel.valhansen.cry": {
+    "sounds": [ { "name": "pokemon/floatzel/floatzel_cry", "volume": 0.8 } ]
   },
   "pokemon.glideau.ambient": {
     "sounds": [ "pokemon/glideau/glideau_ambient" ]
