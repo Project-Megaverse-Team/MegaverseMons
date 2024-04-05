@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:liength",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:liength",
+      "model": "cobblemon:liength.geo",
+      "texture": "cobblemon:textures/pokemon/liength/liength.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/liength/liength_shiny.png",
+      "layers": []
+    }
+  ]
+}
