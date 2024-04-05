@@ -1,0 +1,12 @@
+{
+  "species": "cobblemon:swilime",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "male"
+      ],
+      "model": "cobblemon:swilime_male.geo"
+    }
+  ]
+}
