@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:graspeed",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:graspeed",
+      "model": "cobblemon:graspeed.geo",
+      "texture": "cobblemon:textures/pokemon/graspeed/graspeed.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/graspeed/graspeed_shiny.png",
+    }
+  ]
+}
