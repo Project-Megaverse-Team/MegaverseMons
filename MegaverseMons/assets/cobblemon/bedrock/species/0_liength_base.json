@@ -13,8 +13,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/liength/liength_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/liength/liength_shiny.png"
     }
   ]
 }
