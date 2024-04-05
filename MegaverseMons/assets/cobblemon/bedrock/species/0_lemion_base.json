@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:lemion",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lemion",
+      "model": "cobblemon:lemion.geo",
+      "texture": "cobblemon:textures/pokemon/lemion/lemion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lemion/lemion_shiny.png",
+    }
+  ]
+}
