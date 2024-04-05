@@ -5,7 +5,7 @@
     {
       "aspects": [],
       "poser": "cobblemon:swilime",
-      "model": "cobblemon:swilime.geo",
+      "model": "cobblemon:swilime_female.geo",
       "texture": "cobblemon:textures/pokemon/swilime/swilime.png",
       "layers": []
     },
