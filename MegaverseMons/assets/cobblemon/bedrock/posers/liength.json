@@ -4,6 +4,7 @@
   "portraitTranslation": [ 0, -0.8, 0 ],
   "profileScale": 0.85,
   "profileTranslation": [ 0, 0.55, 0 ],
+  "cry": "bedrock(liength, cry)",
   "poses": {
     "standing": {
       "poseName": "standing",
@@ -12,7 +13,13 @@
       "animations": [
         "look",
         "bedrock(liength, ground_idle)"
-      ]
+      ],
+      "quirks": [
+       {
+         "name": "blink",
+         "animations": ["bedrock(liength, blink)"]
+       }
+     ]
     }
   }
 }
