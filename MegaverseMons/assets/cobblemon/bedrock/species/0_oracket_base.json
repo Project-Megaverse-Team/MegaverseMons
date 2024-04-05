@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:oracket",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:oracket",
+      "model": "cobblemon:oracket.geo",
+      "texture": "cobblemon:textures/pokemon/oracket/oracket.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oracket/oracket_shiny.png",
+    }
+  ]
+}
