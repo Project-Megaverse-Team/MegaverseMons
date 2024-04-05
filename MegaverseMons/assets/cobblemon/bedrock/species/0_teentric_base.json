@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:teentric",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:teentric",
+      "model": "cobblemon:teentric.geo",
+      "texture": "cobblemon:textures/pokemon/teentric/teentric.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/teentric/teentric_shiny.png",
+    }
+  ]
+}
