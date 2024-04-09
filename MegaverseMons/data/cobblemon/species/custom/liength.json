@@ -52,7 +52,7 @@
     "amount": 3,
     "entries": [
       {
-        "item": "minecraft:beef",
+        "item": "minecraft:rotten_flesh",
         "quantityRange": "1-1",
         "percentage": 100
       },
