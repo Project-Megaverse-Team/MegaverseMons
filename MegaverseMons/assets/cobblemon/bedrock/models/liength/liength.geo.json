@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "liength",
-					"pivot": [0, 0, -2]
+					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "torso",
