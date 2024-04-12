@@ -197,6 +197,36 @@
   "pokemon.oniette.bittersweet.cry": {
     "sounds": [ { "name": "pokemon/oniette/oniette_cry", "volume": 0.8 } ]
   },
+  "pokemon.teentric.ambient": {
+    "sounds": [ "pokemon/teentric/teentric_ambient" ]
+  },
+  "pokemon.teentric.cry": {
+    "sounds": [ { "name": "pokemon/teentric/teentric_cry", "volume": 0.8 } ]
+  },
+  "pokemon.lemion.ambient": {
+    "sounds": [ "pokemon/lemion/lemion_ambient" ]
+  },
+  "pokemon.lemion.cry": {
+    "sounds": [ { "name": "pokemon/lemion/lemion_cry", "volume": 0.8 } ]
+  },
+  "pokemon.oracket.ambient": {
+    "sounds": [ "pokemon/oracket/oracket_ambient" ]
+  },
+  "pokemon.oracket.cry": {
+    "sounds": [ { "name": "pokemon/oracket/oracket_cry", "volume": 0.8 } ]
+  },
+  "pokemon.swilime.ambient": {
+    "sounds": [ "pokemon/swilime/swilime_ambient" ]
+  },
+  "pokemon.swilime.cry": {
+    "sounds": [ { "name": "pokemon/swilime/swilime_cry", "volume": 0.8 } ]
+  },
+  "pokemon.graspeed.ambient": {
+    "sounds": [ "pokemon/graspeed/graspeed_ambient" ]
+  },
+  "pokemon.graspeed.cry": {
+    "sounds": [ { "name": "pokemon/graspeed/graspeed_cry", "volume": 0.8 } ]
+  },
   "pokemon.liength.ambient": {
     "sounds": [ "pokemon/liength/liength_ambient" ]
   },
@@ -227,40 +257,16 @@
   "pokemon.soaringkite.cry": {
     "sounds": [ { "name": "pokemon/soaringkite/soaringkite_cry", "volume": 0.8 } ]
   },
+  "pokemon.forteleo.ambient": {
+    "sounds": [ "pokemon/forteleo/forteleo_ambient" ]
+  },
+  "pokemon.forteleo.cry": {
+    "sounds": [ { "name": "pokemon/forteleo/forteleo_cry", "volume": 0.8 } ]
+  },
   "pokemon.spritepixel.ambient": {
     "sounds": [ "pokemon/spritepixel/spritepixel_ambient" ]
   },
   "pokemon.spritepixel.cry": {
     "sounds": [ { "name": "pokemon/spritepixel/spritepixel_cry", "volume": 0.8 } ]
-  },
-  "pokemon.teentric.ambient": {
-    "sounds": [ "pokemon/teentric/teentric_ambient" ]
-  },
-  "pokemon.teentric.cry": {
-    "sounds": [ { "name": "pokemon/teentric/teentric_cry", "volume": 0.8 } ]
-  },
-  "pokemon.lemion.ambient": {
-    "sounds": [ "pokemon/lemion/lemion_ambient" ]
-  },
-  "pokemon.lemion.cry": {
-    "sounds": [ { "name": "pokemon/lemion/lemion_cry", "volume": 0.8 } ]
-  },
-  "pokemon.oracket.ambient": {
-    "sounds": [ "pokemon/oracket/oracket_ambient" ]
-  },
-  "pokemon.oracket.cry": {
-    "sounds": [ { "name": "pokemon/oracket/oracket_cry", "volume": 0.8 } ]
-  },
-  "pokemon.swilime.ambient": {
-    "sounds": [ "pokemon/swilime/swilime_ambient" ]
-  },
-  "pokemon.swilime.cry": {
-    "sounds": [ { "name": "pokemon/swilime/swilime_cry", "volume": 0.8 } ]
-  },
-  "pokemon.graspeed.ambient": {
-    "sounds": [ "pokemon/graspeed/graspeed_ambient" ]
-  },
-  "pokemon.graspeed.cry": {
-    "sounds": [ { "name": "pokemon/graspeed/graspeed_cry", "volume": 0.8 } ]
   }
 }
