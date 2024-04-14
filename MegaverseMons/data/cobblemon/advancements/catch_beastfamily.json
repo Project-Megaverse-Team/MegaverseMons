@@ -1,1 +1,34 @@
-
+{
+	"display": {
+		"icon": {
+			"item": "cobblemon:pokemon_model",
+			"nbt": "{\"species\":\"cobblemon:cowble\"}"
+		},
+		"title": {
+			"translate": "advancements.cobblemon.catch_beastfamily"
+		},
+		"description": {
+			"translate": "advancements.cobblemon.catch_beastfamily.description"
+		},
+		"hidden": false
+	},
+	"parent": "cobblemon:first_catch",
+	"criteria": {
+		"manixie": {
+			"trigger": "cobblemon:party",
+			"conditions": {
+				"pokemon": "cobblemon:liength", "cobblemon:manixie", "cobblemon:cowble", "cobblemon:blissprit"
+			}
+		}
+	},
+	"requirements": [
+		["liength"],
+    ["manixie"],
+		["cowble"],
+		["blissprit"]
+	],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": false
+}
