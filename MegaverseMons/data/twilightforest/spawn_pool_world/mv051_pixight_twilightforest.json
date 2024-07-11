@@ -1,0 +1,60 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "pixight-twilight-1",
+            "pokemon": "pixight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        },
+		{
+            "id": "pixight-twilight-2",
+            "pokemon": "pixight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_forest",
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        },
+		{
+            "id": "pixight-twilight-3",
+            "pokemon": "pixight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "1-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:firefly_forest"
+                ]
+            }
+        }
+    ]
+}

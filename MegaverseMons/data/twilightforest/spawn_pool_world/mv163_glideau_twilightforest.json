@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "glideau-twilight-1",
+            "pokemon": "glideau",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_twilight_forest"
+                ]
+            }
+        },
+		{
+            "id": "glideau-twilight-2",
+            "pokemon": "glideau",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-70",
+            "weight":10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:firefly_forest",
+                    "twilightforest:enchanted_forest",
+                    "twilightforest:oak_savannah"
+                ]
+            }
+        }
+    ]
+}

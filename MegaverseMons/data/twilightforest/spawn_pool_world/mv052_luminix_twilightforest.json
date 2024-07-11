@@ -1,0 +1,60 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "luminix-twilight-1",
+            "pokemon": "luminix",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-70",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        },
+		{
+            "id": "luminix-twilight-2",
+            "pokemon": "luminix",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-60",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_forest",
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        },
+		{
+            "id": "luminix-twilight-3",
+            "pokemon": "luminix",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-60",
+            "weight": 4.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:firefly_forest"
+                ]
+            }
+        }
+    ]
+}

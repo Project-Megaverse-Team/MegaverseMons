@@ -1,0 +1,60 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "sparkless-twilight-1",
+            "pokemon": "sparkless",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-80",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        },
+		{
+            "id": "sparkless-twilight-2",
+            "pokemon": "sparkless",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-80",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_forest",
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        },
+		{
+            "id": "sparkless-twilight-3",
+            "pokemon": "sparkless",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-80",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:firefly_forest"
+                ]
+            }
+        }
+    ]
+}
