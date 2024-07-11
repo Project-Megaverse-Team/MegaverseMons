@@ -1,0 +1,127 @@
+{
+  "implemented": true,
+  "name": "cryomettex",
+  "nationalPokedexNumber": 5004,
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "abilities": [
+    "flamebody",
+    "h:solarpower"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 80,
+    "special_attack": 130,
+    "special_defence": 85,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.4
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 194,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "percentage": 10
+      }
+]
+  },
+  "moves": [
+    "0:sunnyday",
+    "0:amnesia",
+    "0:endure",
+    "0:fakeout",
+    "0:firepunch",
+    "0:naturepower",
+    "1:pound",
+    "1:rage",
+    "1:superpower",
+    "1:safeguard",
+    "1:thunderpunch",
+    "1:tickle",
+    "8:disarmingvoice",
+    "12:babydolleyes",
+    "15:singsound",
+    "18:assurance",
+    "23:faketears",
+    "25:wakeupslap",
+    "30:flamethrower",
+    "32:doubleedge",
+    "34:playrough",
+    "38:taunt",
+    "40:airslash",
+    "42:inferno",
+    "44:tailwind",
+    "46:moonblast",
+    "46:willowisp",
+    "50:endeavor",
+    "52:flamecharge",
+    "54:overheat",
+    "56:fireblast",
+    "64:scald",
+    "68:roost",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:sunnyday",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:fling",
+    "tm:doubleteam"
+  ],
+  "labels": [
+    "custom",
+    "xenoverse"
+  ],
+  "pokedex": [
+    "cobblemon.species.cryomettex.desc1",
+    "cobblemon.species.cryomettex.desc2"
+  ],
+  "baseScale": 0.7,
+  "evolutions": [],
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 66,
+  "cannotDynamax": false
+}
