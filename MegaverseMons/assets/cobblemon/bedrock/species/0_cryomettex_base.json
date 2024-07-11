@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:cryomettex",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cryomettex",
+      "model": "cobblemon:cryomettex.geo",
+      "texture": "cobblemon:textures/pokemon/cryomettex/cryomettex.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/cryomettex/flame/firewing1.png",
+              "cobblemon:textures/pokemon/cryomettex/flame/firewing2.png",
+              "cobblemon:textures/pokemon/cryomettex/flame/firewing3.png",
+              "cobblemon:textures/pokemon/cryomettex/flame/firewing4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cryomettex/cryomettex_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/cryomettex/flame/firewing_shiny1.png",
+              "cobblemon:textures/pokemon/cryomettex/flame/firewing_shiny2.png",
+              "cobblemon:textures/pokemon/cryomettex/flame/firewing_shiny3.png",
+              "cobblemon:textures/pokemon/cryomettex/flame/firewing_shiny4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

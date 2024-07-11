@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:babette_pillager",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:babette",
+      "model": "cobblemon:babette_pillager.geo",
+      "texture": "cobblemon:textures/pokemon/babette/babette_pillager.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/babette/babette_pillager_shiny.png"
+    }
+  ]
+}
