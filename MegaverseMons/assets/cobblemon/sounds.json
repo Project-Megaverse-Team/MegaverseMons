@@ -179,10 +179,22 @@
   "pokemon.glideau.cry": {
     "sounds": [ { "name": "pokemon/glideau/glideau_cry", "volume": 0.8 } ]
   },
+  "pokemon.glideaux.ambient": {
+    "sounds": [ "pokemon/glideau/glideau_ambient" ]
+  },
+  "pokemon.glideaux.cry": {
+    "sounds": [ { "name": "pokemon/glideau/glideau_cry", "volume": 0.8 } ]
+  },
   "pokemon.cryomette.ambient": {
     "sounds": [ "pokemon/cryomette/cryomette_ambient" ]
   },
   "pokemon.cryomette.cry": {
+    "sounds": [ { "name": "pokemon/cryomette/cryomette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.cryomettex.ambient": {
+    "sounds": [ "pokemon/cryomette/cryomette_ambient" ]
+  },
+  "pokemon.cryomettex.cry": {
     "sounds": [ { "name": "pokemon/cryomette/cryomette_cry", "volume": 0.8 } ]
   },
   "pokemon.oniette.ambient": {
