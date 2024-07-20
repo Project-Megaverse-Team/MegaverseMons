@@ -63,8 +63,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.pixightx.desc1",
-    "cobblemon.species.pixightx.desc2"
+    "cobblemon.species.pixightx.desc"
   ],
   "baseScale": 0.3,
   "hitbox": {
