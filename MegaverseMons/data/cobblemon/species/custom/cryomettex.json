@@ -102,8 +102,7 @@
     "xenoverse"
   ],
   "pokedex": [
-    "cobblemon.species.cryomettex.desc1",
-    "cobblemon.species.cryomettex.desc2"
+    "cobblemon.species.cryomettex.desc"
   ],
   "baseScale": 0.7,
   "evolutions": [],
