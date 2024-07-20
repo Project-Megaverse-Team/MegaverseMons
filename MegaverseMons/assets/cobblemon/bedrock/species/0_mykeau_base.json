@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:mykeau",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mykeau",
+      "model": "cobblemon:mykeau.geo",
+      "texture": "cobblemon:textures/pokemon/mykeau/mykeau.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mykeau/mykeau_shiny.png"
+    }
+  ]
+}
