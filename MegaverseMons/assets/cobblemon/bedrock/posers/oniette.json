@@ -4,33 +4,39 @@
  "portraitTranslation": [ 0, 0, 0 ],
  "profileScale": 0.85,
  "profileTranslation": [ 0, 0.55, 0 ],
-  "faint": "bedrock(oniette, faint)",
-  "cry": "bedrock(oniette, cry)",
+  "animations": {
+    "faint": "q.bedrock_primary('oniette', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('oniette', 'cry')",
+    "recoil": "q.bedrock_stateful('oniette', 'recoil')",
+    "physical": "q.bedrock_primary('oniette', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('oniette', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('oniette', 'status', q.curve('symmetrical_wide'))"
+  },
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
+      "transformTicks": 5,
       "poseTypes": [ "STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER", "FLOAT" ],
       "animations": [
-        "look",
-        "bedrock(oniette, ground_idle)"
+        "q.look('head')",
+        "q.bedrock('oniette', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('oniette', 'blink')"
       ]
     },
     "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
+      "transformTicks": 5,
       "poseTypes": [ "WALK", "FLY", "SWIM" ],
-      "animations": [ "bedrock(oniette, ground_walk)" ]
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('oniette', 'ground_walk')"
+      ],
+      "quirks": ["q.bedrock_quirk('oniette', 'blink')"]
     },
-   "sleeping": {
-     "poseName": "sleeping",
-     "transformTicks": 10,
-     "poseTypes": [
-       "SLEEP"
-     ],
-     "animations": [
-       "bedrock(oniette, sleep)"
-     ]
-   }
+    "sleep": {
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('oniette', 'sleep')"]
+    }
   }
 }
