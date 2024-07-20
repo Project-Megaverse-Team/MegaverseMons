@@ -85,8 +85,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.darshell.desc1",
-    "cobblemon.species.darshell.desc2"
+    "cobblemon.species.darshell.desc"
   ],
   "baseScale": 0.7,
   "hitbox": {
