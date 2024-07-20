@@ -92,8 +92,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.windoware.desc1",
-    "cobblemon.species.windoware.desc2"
+    "cobblemon.species.windoware.desc"
   ],
   "baseScale": 0.7,
   "hitbox": {
