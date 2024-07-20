@@ -161,8 +161,7 @@
   ],
   "aspects": [],
   "pokedex": [
-    "cobblemon.species.auroncer.desc1",
-    "cobblemon.species.auroncer.desc2"
+    "cobblemon.species.auroncer.desc"
   ],
   "forms": [
   {
@@ -326,8 +325,7 @@
         "agarsian"
       ],
   "pokedex": [
-    "cobblemon.species.auroncer_agarsa.desc1",
-    "cobblemon.species.auroncer_agarsa.desc2"
+    "cobblemon.species.auroncer_agarsa.desc"
   ],
   "baseScale": 1,
   "evolutions": [],
