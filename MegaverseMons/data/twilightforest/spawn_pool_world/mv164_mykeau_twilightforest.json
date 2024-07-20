@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "mykeau-twilight-1",
+            "pokemon": "mykeau",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_twilight_forest"
+                ]
+            }
+        },
+		{
+            "id": "mykeau-twilight-2",
+            "pokemon": "mykeau",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-70",
+            "weight":10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:dark_forest",
+                    "twilightforest:spooky_forest",
+                    "twilightforest:thornlands"
+                ]
+            }
+        }
+    ]
+}
