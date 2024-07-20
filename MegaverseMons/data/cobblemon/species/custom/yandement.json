@@ -173,6 +173,9 @@
       "aspects": [
         "fratzkian"
       ],
+      "pokedex": [
+        "cobblemon.species.yandement_fratzki.desc"
+      ],
       "preEvolution": "babeau",
       "evolutions": [],
       "height": 2,
@@ -238,8 +241,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.yandement.desc1",
-    "cobblemon.species.yandement.desc2"
+    "cobblemon.species.yandement.desc"
   ],
   "baseScale": 0.7,
   "preEvolution": "babeau",
