@@ -82,8 +82,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.dethmantle.desc1",
-    "cobblemon.species.dethmantle.desc2"
+    "cobblemon.species.dethmantle.desc"
   ],
   "baseScale": 1,
   "hitbox": {
