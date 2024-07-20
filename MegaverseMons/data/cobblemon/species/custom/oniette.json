@@ -115,8 +115,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.oniette.desc1",
-    "cobblemon.species.oniette.desc2"
+    "cobblemon.species.oniette.desc"
   ],
   "baseScale": 0.7,
   "preEvolution": "babette",
