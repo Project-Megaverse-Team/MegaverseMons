@@ -20,6 +20,9 @@
       "aspects": [
         "valhansian"
       ],
+      "pokedex": [
+      "cobblemon.species.linernel_valhansen.desc"
+      ],
       "baseScale": 0.7,
   "evolutions": [
     {
@@ -137,8 +140,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.linernel.desc1",
-    "cobblemon.species.linernel.desc2"
+    "cobblemon.species.linernel.desc"
   ],
   "baseScale": 1,
   "hitbox": {
