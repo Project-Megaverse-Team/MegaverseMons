@@ -85,8 +85,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.gentone.desc1",
-    "cobblemon.species.gentone.desc2"
+    "cobblemon.species.gentone.desc"
   ],
   "baseScale": 1,
   "hitbox": {
