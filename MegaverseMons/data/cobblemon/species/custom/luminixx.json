@@ -80,8 +80,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.luminixx.desc1",
-    "cobblemon.species.luminixx.desc2"
+    "cobblemon.species.luminixx.desc"
   ],
   "baseScale": 0.6,
   "hitbox": {
