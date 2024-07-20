@@ -105,8 +105,7 @@
     "paradox"
   ],
   "pokedex": [
-    "cobblemon.species.soaringwing.desc1",
-    "cobblemon.species.soaringwing.desc2"
+    "cobblemon.species.soaringkite.desc"
   ],
   "baseScale": 0.8,
   "evolutions": [],
