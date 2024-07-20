@@ -53,6 +53,24 @@
   "pokemon.yandement.cry": {
     "sounds": [ { "name": "pokemon/yandement/yandement_cry", "volume": 0.8 } ]
   },
+  "pokemon.glideau.ambient": {
+    "sounds": [ "pokemon/glideau/glideau_ambient" ]
+  },
+  "pokemon.glideau.cry": {
+    "sounds": [ { "name": "pokemon/glideau/glideau_cry", "volume": 0.8 } ]
+  },
+  "pokemon.glideaux.ambient": {
+    "sounds": [ "pokemon/glideau/glideau_ambient" ]
+  },
+  "pokemon.glideaux.cry": {
+    "sounds": [ { "name": "pokemon/glideau/glideau_cry", "volume": 0.8 } ]
+  },
+  "pokemon.mykeau.ambient": {
+    "sounds": [ "pokemon/mykeau/mykeau_ambient" ]
+  },
+  "pokemon.mykeau.cry": {
+    "sounds": [ { "name": "pokemon/mykeau/mykeau_cry", "volume": 0.8 } ]
+  },
   "pokemon.babette.ambient": {
     "sounds": [ "pokemon/babette/babette_ambient" ]
   },
@@ -82,6 +100,30 @@
   },
   "pokemon.yanditrix_psycho.cry": {
     "sounds": [ { "name": "pokemon/yanditrix/yanditrix_psycho_cry", "volume": 0.8 } ]
+  },
+  "pokemon.cryomette.ambient": {
+    "sounds": [ "pokemon/cryomette/cryomette_ambient" ]
+  },
+  "pokemon.cryomette.cry": {
+    "sounds": [ { "name": "pokemon/cryomette/cryomette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.cryomettex.ambient": {
+    "sounds": [ "pokemon/cryomette/cryomette_ambient" ]
+  },
+  "pokemon.cryomettex.cry": {
+    "sounds": [ { "name": "pokemon/cryomette/cryomette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.oniette.ambient": {
+    "sounds": [ "pokemon/oniette/oniette_ambient" ]
+  },
+  "pokemon.oniette.cry": {
+    "sounds": [ { "name": "pokemon/oniette/oniette_cry", "volume": 0.8 } ]
+  },
+  "pokemon.oniette.bittersweet.ambient": {
+    "sounds": [ "pokemon/oniette/oniette_ambient" ]
+  },
+  "pokemon.oniette.bittersweet.cry": {
+    "sounds": [ { "name": "pokemon/oniette/oniette_cry", "volume": 0.8 } ]
   },
   "pokemon.obstagoon.hoennian.ambient": {
     "sounds": [ "pokemon/obstagoon/obstagoon_ambient" ]
@@ -172,42 +214,6 @@
   },
   "pokemon.floatzel.valhansian.cry": {
     "sounds": [ { "name": "pokemon/floatzel/floatzel_cry", "volume": 0.8 } ]
-  },
-  "pokemon.glideau.ambient": {
-    "sounds": [ "pokemon/glideau/glideau_ambient" ]
-  },
-  "pokemon.glideau.cry": {
-    "sounds": [ { "name": "pokemon/glideau/glideau_cry", "volume": 0.8 } ]
-  },
-  "pokemon.glideaux.ambient": {
-    "sounds": [ "pokemon/glideau/glideau_ambient" ]
-  },
-  "pokemon.glideaux.cry": {
-    "sounds": [ { "name": "pokemon/glideau/glideau_cry", "volume": 0.8 } ]
-  },
-  "pokemon.cryomette.ambient": {
-    "sounds": [ "pokemon/cryomette/cryomette_ambient" ]
-  },
-  "pokemon.cryomette.cry": {
-    "sounds": [ { "name": "pokemon/cryomette/cryomette_cry", "volume": 0.8 } ]
-  },
-  "pokemon.cryomettex.ambient": {
-    "sounds": [ "pokemon/cryomette/cryomette_ambient" ]
-  },
-  "pokemon.cryomettex.cry": {
-    "sounds": [ { "name": "pokemon/cryomette/cryomette_cry", "volume": 0.8 } ]
-  },
-  "pokemon.oniette.ambient": {
-    "sounds": [ "pokemon/oniette/oniette_ambient" ]
-  },
-  "pokemon.oniette.cry": {
-    "sounds": [ { "name": "pokemon/oniette/oniette_cry", "volume": 0.8 } ]
-  },
-  "pokemon.oniette.bittersweet.ambient": {
-    "sounds": [ "pokemon/oniette/oniette_ambient" ]
-  },
-  "pokemon.oniette.bittersweet.cry": {
-    "sounds": [ { "name": "pokemon/oniette/oniette_cry", "volume": 0.8 } ]
   },
   "pokemon.teentric.ambient": {
     "sounds": [ "pokemon/teentric/teentric_ambient" ]
