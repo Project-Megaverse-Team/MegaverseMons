@@ -28,9 +28,9 @@
             "weight":10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:mushroomforest",
+                    "twilightforest:mushroom_forest",
                     "twilightforest:dense_mushroom_forest",
-                    "twilightforest:dark_forest",
+                    "twilightforest:twilight_swamp",
                     "twilightforest:spooky_forest",
                     "twilightforest:thornlands"
                 ]
