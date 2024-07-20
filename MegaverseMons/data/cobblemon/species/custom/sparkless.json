@@ -99,8 +99,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.sparkless.desc1",
-    "cobblemon.species.sparkless.desc2"
+    "cobblemon.species.sparkless.desc"
   ],
   "baseScale": 0.75,
   "hitbox": {
