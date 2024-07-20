@@ -172,6 +172,9 @@
       "aspects": [
         "fratzkian"
       ],
+      "pokedex": [
+      "cobblemon.species.karatage_fratzki.desc"
+      ],
       "preEvolution": "babeau",
       "evolutions": [],
       "height": 2,
@@ -242,8 +245,7 @@
   ],
   "aspects": [],
   "pokedex": [
-    "cobblemon.species.karatage.desc1",
-    "cobblemon.species.karatage.desc2"
+    "cobblemon.species.karatage.desc"
   ],
   "preEvolution": "babeau",
   "evolutions": [],
