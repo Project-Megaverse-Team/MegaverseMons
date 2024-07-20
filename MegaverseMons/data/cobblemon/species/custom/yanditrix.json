@@ -174,6 +174,9 @@
       "aspects": [
         "fratzkian"
       ],
+      "pokedex": [
+        "cobblemon.species.yanditrix_fratzki.desc"
+      ],
       "preEvolution": "babette",
       "evolutions": [],
       "height": 2,
@@ -239,8 +242,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.yanditrix.desc1",
-    "cobblemon.species.yanditrix.desc2"
+    "cobblemon.species.yanditrix.desc"
   ],
   "baseScale": 0.7,
   "preEvolution": "babette",
