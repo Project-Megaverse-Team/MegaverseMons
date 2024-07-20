@@ -35,6 +35,13 @@
 				"evolution": "cobblemon:glideau"
 			}
 		},
+		"evolve_mykeau": {
+			"trigger": "cobblemon:pokemon_evolved",
+			"conditions": {
+				"species": "cobblemon:babeau",
+				"evolution": "cobblemon:mykeau"
+			}
+		},
 		"evolve_sailine": {
 			"trigger": "cobblemon:pokemon_evolved",
 			"conditions": {
@@ -68,6 +75,7 @@
 		["evolve_karatage"],
 		["evolve_yandement"],
 		["evolve_glideau"],
+		["evolve_mykeau"],
 		["evolve_sailine"],
 		["evolve_yanditrix"],
 		["evolve_cryomette"],
