@@ -85,8 +85,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.doshell.desc1",
-    "cobblemon.species.doshell.desc2"
+    "cobblemon.species.doshell.desc"
   ],
   "baseScale": 0.7,
   "hitbox": {
