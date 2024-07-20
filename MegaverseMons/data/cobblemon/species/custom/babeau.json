@@ -101,8 +101,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.babeau.desc1",
-    "cobblemon.species.babeau.desc2"
+    "cobblemon.species.babeau.desc"
   ],
   "baseScale": 0.9,
   "hitbox": {
