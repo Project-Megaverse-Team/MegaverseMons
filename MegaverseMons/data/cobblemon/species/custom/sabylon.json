@@ -92,8 +92,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.sabylon.desc1",
-    "cobblemon.species.sabylon.desc2"
+    "cobblemon.species.sabylon.desc"
   ],
   "baseScale": 1,
   "hitbox": {
