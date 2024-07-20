@@ -92,8 +92,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.babette.desc1",
-    "cobblemon.species.babette.desc2"
+    "cobblemon.species.babette.desc"
   ],
   "baseScale": 0.9,
   "hitbox": {
