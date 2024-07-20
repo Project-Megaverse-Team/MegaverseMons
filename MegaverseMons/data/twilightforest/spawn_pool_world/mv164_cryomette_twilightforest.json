@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "cryomette-twilight-1",
+            "pokemon": "cryomette",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_twilight_forest"
+                ]
+            }
+        },
+		{
+            "id": "cryomette-twilight-2",
+            "pokemon": "cryomette",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-70",
+            "weight":10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:glacier",
+                    "twilightforest:snowy_forest",
+                    "twilightforest:twilight_lake",
+                    "twilightforest:enchanted_forest",
+                    "twilightforest:twilight_highlands"
+                ]
+            }
+        }
+    ]
+}
