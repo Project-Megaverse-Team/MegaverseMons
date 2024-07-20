@@ -176,6 +176,9 @@
       "aspects": [
         "fratzkian"
       ],
+  "pokedex": [
+    "cobblemon.species.sailine_fratzki.desc"
+  ],
       "preEvolution": "babette",
       "evolutions": [],
       "height": 2,
@@ -291,6 +294,9 @@
       "aspects": [
         "broken_bond"
       ],
+  "pokedex": [
+    "cobblemon.species.sailine_bond.desc"
+  ],
       "evolutions": [],
       "height": 2,
       "weight": 1105,
@@ -357,8 +363,7 @@
   ],
   "aspects": [],
   "pokedex": [
-    "cobblemon.species.sailine.desc1",
-    "cobblemon.species.sailine.desc2"
+    "cobblemon.species.sailine.desc"
   ],
   "preEvolution": "babette",
   "evolutions": [],
