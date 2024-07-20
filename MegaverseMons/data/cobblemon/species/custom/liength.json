@@ -134,8 +134,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.liength.desc1",
-    "cobblemon.species.liength.desc2"
+    "cobblemon.species.liength.desc",
   ],
   "baseScale": 1,
   "hitbox": {
