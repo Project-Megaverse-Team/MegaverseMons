@@ -1,0 +1,11 @@
+{
+    "pokemon": [ "ralts",
+                 "kirlia",
+                 "gallade",
+                 "taillow",
+                 "swellow",
+                 "zubat",
+                 "golbat"
+                ],
+    "features": [ "xetopian" ]
+}
