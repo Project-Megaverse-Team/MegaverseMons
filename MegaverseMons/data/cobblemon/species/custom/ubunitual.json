@@ -92,8 +92,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.ubunitual.desc1",
-    "cobblemon.species.ubunitual.desc2"
+    "cobblemon.species.ubunitual.desc"
   ],
   "baseScale": 1,
   "hitbox": {
