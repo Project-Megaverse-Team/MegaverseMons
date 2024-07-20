@@ -85,8 +85,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.deviave.desc1",
-    "cobblemon.species.debiave.desc2"
+    "cobblemon.species.deviave.desc1"
   ],
   "baseScale": 1,
   "hitbox": {
