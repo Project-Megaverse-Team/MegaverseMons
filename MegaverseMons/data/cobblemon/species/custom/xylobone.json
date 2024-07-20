@@ -84,8 +84,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.xylobone.desc1",
-    "cobblemon.species.xylobone.desc2"
+    "cobblemon.species.xylobone.desc"
   ],
   "baseScale": 1,
   "hitbox": {
