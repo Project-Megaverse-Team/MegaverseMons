@@ -107,8 +107,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.glideau.desc1",
-    "cobblemon.species.glideau.desc2"
+    "cobblemon.species.glideau.desc"
   ],
   "baseScale": 0.7,
   "preEvolution": "babeau",
