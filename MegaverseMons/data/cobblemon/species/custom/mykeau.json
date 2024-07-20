@@ -1,0 +1,142 @@
+{
+  "implemented": true,
+  "name": "Mykeau",
+  "nationalPokedexNumber": 5010,
+  "primaryType": "poison",
+  "secondaryType": "normal",
+  "abilities": [
+    "effectspore",
+    "stench",
+    "h:merciless"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 105,
+    "defence": 78,
+    "special_attack": 112,
+    "special_defence": 88,
+    "speed": 52
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+		"walkSpeed": 0.2,
+        "avoidsLand": false
+      },
+      "swim": {
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 194,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:ghast_tear",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "0:sludgewave",
+    "0:belch",
+    "0:lifedew",
+    "0:safeguard",
+    "0:fakeout",
+    "0:skittersmack",
+    "15:sleeppowder",
+    "18:assurance",
+    "20:babydolleyes",
+    "22:magicalleaf",
+    "24:clearsmog",
+    "30:tickle",
+    "32:foulplay",
+    "34:spore",
+    "36:razorwind",
+    "38:darkpulse",
+    "40:venoshock",
+    "42:slam",
+    "44:toxifume",
+    "48:uproarsound",
+    "50:curse",
+    "52:ragepowder",
+    "54:leaftornado",
+    "60:roost",
+    "64:dreameater",
+    "72:destinybond",
+    "80:embargo",
+    "85:healblock",
+    "90:perishsong",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:taunt",
+    "tm:shadowball",
+    "tm:fling",
+    "tm:doubleteam"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.mykeau.desc"
+  ],
+  "baseScale": 0.7,
+  "preEvolution": "babeau",
+  "evolutions": [],
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 66,
+  "features": [],
+  "cannotDynamax": false
+}
