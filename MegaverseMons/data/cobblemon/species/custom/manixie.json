@@ -139,6 +139,9 @@
   "features": [
     "mystical"
   ],
+  "pokedex": [
+    "cobblemon.species.manixie_mystical.desc"
+  ],
   "aspects": [],
       "forms": [
     {
@@ -168,8 +171,7 @@
    }
   ],
   "pokedex": [
-    "cobblemon.species.manixie.desc1",
-    "cobblemon.species.manixie.desc2"
+    "cobblemon.species.manixie.desc"
   ],
   "baseScale": 1,
   "hitbox": {
