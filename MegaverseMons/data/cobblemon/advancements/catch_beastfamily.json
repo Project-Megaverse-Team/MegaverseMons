@@ -22,8 +22,8 @@
 		}
 	},
 	"requirements": [
-		["liength"],
-    ["manixie"],
+		["length"],
+    		["manixie"],
 		["cowble"],
 		["blissprit"]
 	],
