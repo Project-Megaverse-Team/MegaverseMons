@@ -18,7 +18,12 @@
 				{
 					"name": "body",
 					"parent": "sailine",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 0, 0],
+					"locators": {
+						"center": [0, 24, -1],
+						"ground_center": [0, 0, 0],
+						"target": [0, 24, -6]
+					}
 				},
 				{
 					"name": "torso",
@@ -40,7 +45,10 @@
 						{"origin": [2, 34.5, -6.5], "size": [4, 4, 4], "pivot": [4, 36.5, -6.5], "rotation": [0, 0, 22.5], "uv": [74, 30]},
 						{"origin": [-2, 34.5, -6.5], "size": [4, 4, 4], "uv": [64, 0]},
 						{"origin": [-6, 34.5, -6.5], "size": [4, 4, 4], "pivot": [-4, 36.5, -6.5], "rotation": [0, 0, -20], "uv": [72, 72]}
-					]
+					],
+					"locators": {
+						"head_top": [0, 38.5, 0]
+					}
 				},
 				{
 					"name": "ahoge",
@@ -104,6 +112,70 @@
 					]
 				},
 				{
+					"name": "face_attack1",
+					"parent": "head",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [72, 16]}
+					]
+				},
+				{
+					"name": "face_attack2",
+					"parent": "head",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [96, 8]}
+					]
+				},
+				{
+					"name": "face_attack3",
+					"parent": "head",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [112, 8]}
+					]
+				},
+				{
+					"name": "face_blinkatk",
+					"parent": "head",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [104, 8]}
+					]
+				},
+				{
+					"name": "face_hurt",
+					"parent": "head",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [96, 16]}
+					]
+				},
+				{
+					"name": "face_status",
+					"parent": "head",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [104, 16]}
+					]
+				},
+				{
+					"name": "face_hurt2",
+					"parent": "head",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [88, 16]}
+					]
+				},
+				{
+					"name": "angerveins",
+					"parent": "head",
+					"pivot": [1.5, 34.5, -2],
+					"cubes": [
+						{"origin": [-1, 32, -2], "size": [5, 5, 0], "uv": [80, 3]}
+					]
+				},
+				{
 					"name": "arm_left",
 					"parent": "torso",
 					"pivot": [2, 27, 0],
@@ -141,7 +213,13 @@
 					"pivot": [-10, 27, 0],
 					"cubes": [
 						{"origin": [-17, 25.5, -1.5], "size": [8, 3, 3], "uv": [36, 0]}
-					]
+					],
+					"locators": {
+						"special_attack": {
+							"offset": [-19, 27, 0],
+							"rotation": [0, 90, 0]
+						}
+					}
 				},
 				{
 					"name": "fist_right",

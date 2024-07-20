@@ -105,27 +105,6 @@
 					]
 				},
 				{
-					"name": "face_battle",
-					"parent": "head",
-					"pivot": [0, 9, 0]
-				},
-				{
-					"name": "face_attack1",
-					"parent": "face_battle",
-					"pivot": [0, 9, 0],
-					"cubes": [
-						{"origin": [-3, 9, -2], "size": [6, 6, 0], "uv": [0, 35]}
-					]
-				},
-				{
-					"name": "face_attack2",
-					"parent": "face_battle",
-					"pivot": [0, 9, 0],
-					"cubes": [
-						{"origin": [-3, 9, -2], "size": [6, 6, 0], "uv": [6, 35]}
-					]
-				},
-				{
 					"name": "arm_left",
 					"parent": "torso",
 					"pivot": [1, 8.5, 0],
@@ -192,28 +171,18 @@
 				{
 					"name": "leg_left",
 					"parent": "waist",
-					"pivot": [1, 4, 0],
+					"pivot": [0.7, 4, 0],
 					"cubes": [
-						{"origin": [0.5, 0, -0.5], "size": [1, 5, 1], "uv": [8, 29]}
+						{"origin": [0.2, 0, -0.5], "size": [1, 5, 1], "uv": [8, 29]}
 					]
-				},
-				{
-					"name": "leg_left2",
-					"parent": "leg_left",
-					"pivot": [1.5, -4, 0]
 				},
 				{
 					"name": "leg_right",
 					"parent": "waist",
-					"pivot": [-1, 4, 0],
+					"pivot": [-0.7, 4, 0],
 					"cubes": [
-						{"origin": [-1.5, 0, -0.5], "size": [1, 5, 1], "uv": [0, 0]}
+						{"origin": [-1.2, 0, -0.5], "size": [1, 5, 1], "uv": [0, 0]}
 					]
-				},
-				{
-					"name": "leg_right2",
-					"parent": "leg_right",
-					"pivot": [-1.5, -4, 0]
 				}
 			]
 		}

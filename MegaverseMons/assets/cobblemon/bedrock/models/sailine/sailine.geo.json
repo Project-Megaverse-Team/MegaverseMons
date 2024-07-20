@@ -13,7 +13,12 @@
 			"bones": [
 				{
 					"name": "sailine",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 0, 0],
+					"locators": {
+						"target": [0, 24, -6],
+						"ground_center": [0, 0, 0],
+						"center": [0, 24, -1]
+					}
 				},
 				{
 					"name": "body",
@@ -31,17 +36,25 @@
 				{
 					"name": "head",
 					"parent": "torso",
+					"pivot": [0, 28, 0]
+				},
+				{
+					"name": "head_ai",
+					"parent": "head",
 					"pivot": [0, 28, 0],
 					"cubes": [
 						{"origin": [-4, 28, -4], "size": [8, 8, 8], "uv": [0, 21]},
 						{"origin": [-5, 27, -5], "size": [10, 11, 10], "uv": [0, 0]},
 						{"origin": [4, 37, -2], "size": [4, 4, 4], "uv": [20, 44]},
 						{"origin": [-8, 37, -2], "size": [4, 4, 4], "uv": [40, 10]}
-					]
+					],
+					"locators": {
+						"head_top": [0, 38.5, 0]
+					}
 				},
 				{
 					"name": "ahoge",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [0, 38, 0],
 					"cubes": [
 						{"origin": [-3, 38, 0], "size": [6, 8, 0], "uv": [16, 52]}
@@ -49,7 +62,7 @@
 				},
 				{
 					"name": "face_common",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [0, 28, 0]
 				},
 				{
@@ -70,15 +83,47 @@
 				},
 				{
 					"name": "face_crysound",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [0, 28, 1],
 					"cubes": [
 						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [16, 62]}
 					]
 				},
 				{
+					"name": "face_attack1",
+					"parent": "head_ai",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [0, 70]}
+					]
+				},
+				{
+					"name": "face_attack2",
+					"parent": "head_ai",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [24, 62]}
+					]
+				},
+				{
+					"name": "face_hurt",
+					"parent": "head_ai",
+					"pivot": [0, 28, 1],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [24, 70]}
+					]
+				},
+				{
+					"name": "face_hurt2",
+					"parent": "head_ai",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-4, 28, -3], "size": [8, 8, 0], "uv": [16, 70]}
+					]
+				},
+				{
 					"name": "face_faint",
-					"parent": "head",
+					"parent": "head_ai",
 					"pivot": [0, 28, 0]
 				},
 				{
@@ -143,7 +188,13 @@
 					"pivot": [-17, 27, 0],
 					"cubes": [
 						{"origin": [-20, 25, -2], "size": [4, 4, 4], "inflate": -0.5, "uv": [0, 45]}
-					]
+					],
+					"locators": {
+						"special_attack": {
+							"offset": [-19, 27, 0],
+							"rotation": [0, 90, 0]
+						}
+					}
 				},
 				{
 					"name": "waist",
