@@ -1,0 +1,33 @@
+{
+  "algorithms": {
+    "spawn_range": 20.0
+  },
+  "biome": [
+    "minecraft:jungle",
+    "minecraft:taiga",
+    "minecraft:mushroom_fields",
+    "minecraft:lush_caves",
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:grove",
+    "minecraft:dripstone_caves",
+    "minecraft:crimson_forest",
+    "minecraft:warped_forest",
+    "minecraft:plains",
+    "minecraft:sunflower_plains"
+  ],
+  "species_data": {
+    "spawns_per_wave": 5,
+    "pokemon_rarity": "rare",
+    "species": "mykeau",
+    "waves": 3
+  },
+  "rewards": {
+    "item_rewards": [
+      "cobblemon:rare_candy"
+    ]
+  }
+}
