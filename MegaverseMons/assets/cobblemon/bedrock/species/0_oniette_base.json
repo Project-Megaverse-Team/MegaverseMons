@@ -7,13 +7,124 @@
       "poser": "cobblemon:oniette",
       "model": "cobblemon:oniette.geo",
       "texture": "cobblemon:textures/pokemon/oniette/oniette.png",
-      "layers": []
-    },
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_default.png"
+       }
+      ]
+     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/oniette/oniette_shiny.png"
-    }
-  ]
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_shiny.png",
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_default.png"
+       }
+      ]
+     },
+    {
+      "aspects": [
+        "doll-bittersweet"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette.png",
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_bittersweet.png"
+       }
+      ]
+     },
+    {
+      "aspects": [
+        "doll-bittersweet",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_shiny.png",
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_bittersweet.png"
+       }
+      ]
+     },
+    {
+      "aspects": [
+        "doll-creeper"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette.png",
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_creeper.png"
+       }
+      ]
+     },
+    {
+      "aspects": [
+        "doll-creeper",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_shiny.png",
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_creeper.png"
+       }
+      ]
+     },
+    {
+      "aspects": [
+        "doll-enderman"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette.png",
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_enderman.png"
+       }
+      ]
+     },
+    {
+      "aspects": [
+        "doll-enderman",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_shiny.png",
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_enderman.png"
+       }
+      ]
+     },
+    {
+      "aspects": [
+        "doll-maid_fairy"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette.png",
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_fairy.png"
+       }
+      ]
+     },
+    {
+      "aspects": [
+        "doll-maid_fairy",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oniette/oniette_shiny.png",
+      "layers": [
+        {
+          "name": "doll_default",
+          "texture": "cobblemon:textures/pokemon/oniette/oniette_fairy.png"
+       }
+      ]
+     }
+   ]
 }
