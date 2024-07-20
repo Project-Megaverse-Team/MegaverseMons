@@ -94,8 +94,7 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.machintech.desc1",
-    "cobblemon.species.machintech.desc2"
+    "cobblemon.species.machintech.desc"
   ],
   "baseScale": 0.7,
   "hitbox": {
