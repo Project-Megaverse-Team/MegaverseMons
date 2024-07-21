@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:forteleo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:forteleo",
+      "model": "cobblemon:forteleo.geo",
+      "texture": "cobblemon:textures/pokemon/forteleo/forteleo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/forteleo/forteleo_shiny.png",
+      "layers": []
+    }
+  ]
+}
