@@ -121,8 +121,7 @@
     "paradox"
   ],
   "pokedex": [
-    "cobblemon.species.spritepixel.desc1",
-    "cobblemon.species.spritepixel.desc2"
+    "cobblemon.species.spritepixel.desc"
   ],
   "baseScale": 1,
   "evolutions": [],
