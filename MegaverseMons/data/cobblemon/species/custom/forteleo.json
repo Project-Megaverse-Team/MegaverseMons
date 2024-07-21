@@ -1,0 +1,138 @@
+{
+  "implemented": true,
+  "name": "Forte Leo",
+  "nationalPokedexNumber": 5106,
+  "primaryType": "fighting",
+  "secondaryType": "rock",
+  "abilities": [
+    "protosynthesis"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 140,
+    "defence": 132,
+    "special_attack": 60,
+    "special_defence": 78,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.45,
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.5
+      }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 285,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:brick",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "minecraft:red_concrete"
+      }
+]
+  },
+  "moves": [
+    "1:leer",
+    "1:scratch",
+    "4:focusenergy",
+    "8:bite",
+    "12:furyswipes",
+    "16:doublekick",
+    "20:smackdown",
+    "24:wideguard",
+    "28:rockblast",
+    "32:revenge",
+    "36:crunch",
+    "40:swordsdance",
+    "44:upperhand",
+    "50:rockwrecker",
+    "tm:focuspunch",
+    "tm:roar",
+    "tm:solarbeam",
+    "tm:bulkup",
+    "tm:gigaimpact",
+    "tm:frustration",
+    "tm:return",
+    "tm:attract",
+    "tm:irontail",
+    "tm:earthquake",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:lowsweep",
+    "tm:rockslide",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:uturn",
+    "tm:endure",
+    "tm:brutalswing",
+    "tm:shadowclaw",
+    "tm:swordsdance",
+    "tm:bulldoze",
+    "tm:heavyslam",
+    "tm:xscissor",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:secretpower",
+    "tm:razorwind",
+    "tm:poweruppunch",
+    "tm:smackdown"
+  ],
+  "labels": [
+    "custom",
+    "paradox"
+  ],
+  "pokedex": [
+    "cobblemon.species.forteleo.desc"
+  ],
+  "baseScale": 1,
+  "evolutions": [],
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+  "cannotDynamax": false
+}
