@@ -1,0 +1,66 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "mykeau-1",
+            "pokemon": "mykeau",
+            "presets": [
+                "uncommon"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_abyss",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+		{
+            "id": "mykeau-2",
+            "pokemon": "mykeau",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                   "#cobblemon:is_forest",
+                   "#cobblemon:is_hills",
+                   "#cobblemon:is_magical"
+                ]
+            }
+        },
+		{
+            "id": "mykeau-3",
+            "pokemon": "mykeau",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-60",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                   "#cobblemon:is_mushroom",
+                   "#cobblemon:is_nether_fungus"
+                ]
+            }
+        }
+    ]
+}
