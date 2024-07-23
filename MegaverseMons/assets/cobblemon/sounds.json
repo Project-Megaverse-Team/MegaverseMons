@@ -257,6 +257,24 @@
   "pokemon.manixie.cry": {
     "sounds": [ { "name": "pokemon/manixie/manixie_cry", "volume": 0.8 } ]
   },
+  "pokemon.cowble.ambient": {
+    "sounds": [ "pokemon/cowble/cowble_ambient" ]
+  },
+  "pokemon.cowble.cry": {
+    "sounds": [ { "name": "pokemon/cowble/cowble_cry", "volume": 0.8 } ]
+  },
+    "pokemon.cowble.paldean.ambient": {
+    "sounds": [ "pokemon/cowble/cowble_ambient" ]
+  },
+  "pokemon.cowble.paldean.cry": {
+    "sounds": [ { "name": "pokemon/cowble/cowble_cry", "volume": 0.8 } ]
+  },
+  "pokemon.blissprit.ambient": {
+    "sounds": [ "pokemon/blissprit/blissprit_ambient" ]
+  },
+  "pokemon.blissprit.cry": {
+    "sounds": [ { "name": "pokemon/blissprit/blissprit_cry", "volume": 0.8 } ]
+  },
   "pokemon.kagurette.ambient": {
     "sounds": [ "pokemon/kagurette/kagurette_ambient" ]
   },
