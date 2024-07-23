@@ -1,0 +1,168 @@
+{
+  "implemented": true,
+  "name": "Blissprit",
+  "nationalPokedexNumber": 5052,
+  "primaryType": "fairy",
+  "secondaryType": "fighting",
+  "abilities": [
+    "prankster",
+    "strongjaw",
+    "h:aromaveil"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 70,
+    "special_attack": 90,
+    "special_defence": 110,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-7",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 211,
+  "eggCycles": 20,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:poppy",
+        "quantityRange": "1-2",
+        "percentage": 100
+      },
+      {
+        "item": "minecraft:rabbit_foot",
+        "quantityRange": "1",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 12
+      },
+      {
+        "item": "cobblemon:pep_up_flower",
+        "percentage": 12
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:babydolleyes",
+    "1:pillowpummel",
+    "4:charm",
+    "8:cometpunch",
+    "12:dizzypunch",
+    "16:agility",
+    "20:fairywind",
+    "24:beatup",
+    "29:acesplay",
+    "32:batonpass",
+    "36:moonblast",
+    "40:calmmind",
+    "44:playrough",
+    "50:closecombat",
+    "egg:rockblast",
+    "egg:luminacrash",
+    "egg:batonpass",
+    "egg:bodyslam",
+    "egg:copycat",
+    "egg:counter",
+    "egg:doublekick",
+    "egg:endure",
+    "egg:focuspunch",
+    "egg:helpinghand",
+    "egg:firefang",
+    "egg:knockoff",
+    "egg:poweruppunch",
+    "egg:quickguard",
+    "tm:megapunch",
+    "tm:pinmissile",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:magicalleaf",
+    "tm:dig",
+    "tm:screech",
+    "tm:reflect",
+    "tm:safeguard",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:thunderfang",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:brickbreak",
+    "tm:sludgebomb",
+    "tm:icefang",
+    "tm:facade",
+    "tm:hypervoice",
+    "tm:mysticalfire",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:rocktomb",
+    "tm:echoedvoice",
+    "tm:bulletseed",
+    "tm:focusblast",
+    "tm:uturn",
+    "tm:fling",
+    "tm:shadowclaw",
+    "tm:thunderfang",
+    "tm:rockslide",
+    "tm:highhorsepower",
+    "tm:substitute",
+    "tm:stompingtantrum"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "pokedex": [
+    "cobblemon.species.blissprit.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+  "evolutions": []
+}
