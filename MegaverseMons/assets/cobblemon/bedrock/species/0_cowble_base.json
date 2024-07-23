@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cowble",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cowble",
+      "model": "cobblemon:cowble.geo",
+      "texture": "cobblemon:textures/pokemon/cowble/cowble.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cowble/cowble_shiny.png"
+    }
+  ]
+}
