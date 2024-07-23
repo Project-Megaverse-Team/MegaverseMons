@@ -1,321 +1,321 @@
 {
-  "implemented": true,
-  "name": "Cowble",
-  "nationalPokedexNumber": 5052,
-  "primaryType": "fighting",
-  "secondaryType": "fairy",
-  "abilities": [
-    "ironfist",
-    "pixilate",
-    "h:moldbreaker"
-  ],
-  "baseStats": {
-    "hp": 60,
-    "attack": 120,
-    "defence": 70,
-    "special_attack": 110,
-    "special_defence": 70,
-    "speed": 90
-  },
-  "behaviour": {
-    "resting": {
-      "canSleep": true,
-      "depth": "normal",
-      "light": "0-7",
-      "willSleepOnBed": true
-    },
-    "moving": {
-      "canLook": true,
-      "walk": {
-        "canWalk": true,
-        "avoidsLand": false
-      },
-      "swim": {
-        "swimSpeed": 0.3,
-        "canSwimInWater": false,
-        "canBreatheUnderwater": true
-      },
-      "fly": {
-        "canFly": false,
-        "flySpeedHorizontal": 0.3
-      }
-    }
-  },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 211,
-  "eggCycles": 20,
-  "eggGroups": [
-    "field",
-    "fairy"
-  ],
-  "drops": {
-    "amount": 4,
-    "entries": [
-      {
-        "item": "minecraft:wheat",
-        "quantityRange": "1-2",
-        "percentage": 100
-      },
-      {
-        "item": "minecraft:leather_chest",
-        "quantityRange": "1",
-        "percentage": 50
-      },
-      {
-        "item": "cobblemon:razor_claw",
-        "percentage": 12
-      },
-      {
-        "item": "cobblemon:muscle_band",
-        "percentage": 12
-      }
-    ]
-  },
-  "moves": [
-    "1:leer",
-    "1:doublekick",
-    "1:pillowpummel",
-    "4:quickattack",
-    "8:lowsweep",
-    "12:detect",
-    "16:rockthrow",
-    "18:firepunch",
-    "18:thunderpunch",
-    "18:icepunch",
-    "20:swordsdance",
-    "24:smackdown",
-    "29:magnumpunch",
-    "32:playrough",
-    "36:highhorsepower",
-    "40:bulletpunch",
-    "44:hammerarm",
-    "50:closecombat",
-    "egg:rockblast",
-    "egg:luminacrash",
-    "egg:bellydrum",
-    "egg:bodyslam",
-    "egg:crosschop",
-    "egg:drainpunch",
-    "egg:dynamicpunch",
-    "egg:encore",
-    "egg:fakeout",
-    "egg:flail",
-    "egg:irondefense",
-    "egg:machpunch",
-    "egg:megakick",
-    "tm:megapunch",
-    "tm:psychocut",
-    "tm:hyperbeam",
-    "tm:gigaimpact",
-    "tm:magicalleaf",
-    "tm:solarbeam",
-    "tm:firespin",
-    "tm:dig",
-    "tm:screech",
-    "tm:reflect",
-    "tm:safeguard",
-    "tm:rest",
-    "tm:rockslide",
-    "tm:thunderpunch",
-    "tm:thunderbolt",
-    "tm:thunder",
-    "tm:earthquake",
-    "tm:brickbreak",
-    "tm:crunch",
-    "tm:shadowball",
-    "tm:sludgebomb",
-    "tm:sludgewave",
-    "tm:facade",
-    "tm:aerialace",
-    "tm:helpinghand",
-    "tm:hypervoice",
-    "tm:flamecharge",
-    "tm:attract",
-    "tm:lowsweep",
-    "tm:rocktomb",
-    "tm:echoedvoice",
-    "tm:bulletseed",
-    "tm:focusblast",
-    "tm:rockblast",
-    "tm:assurance",
-    "tm:fling",
-    "tm:shadowclaw",
-    "tm:swordsdance",
-    "tm:bulldoze",
-    "tm:rockslide",
-    "tm:swagger",
-    "tm:mistyterrain",
-    "tm:substitute",
-    "tm:stompingtantrum"
-  ],
-  "labels": [
-    "custom"
-  ],
-  "features": [
-    "paldean"
-  ],
-  "pokedex": [
-    "cobblemon.species.cowble_paldea.desc"
-  ],
-  "aspects": [],
-      "forms": [
-    {
-      "name": "Paldean",
-      "primaryType": "steel",
-      "secondaryType": "dark",
-      "abilities": [
-        "laserfocus",
-        "steelworker",
+    "implemented": true,
+    "name": "Cowble",
+    "nationalPokedexNumber": 5052,
+    "primaryType": "fighting",
+    "secondaryType": "fairy",
+    "abilities": [
+        "ironfist",
+        "pixilate",
         "h:moldbreaker"
-      ],
-    },
-      "moves": [
-      "1:leer",
-      "1:bulletpunch",
-      "1:pursuit",
-      "4:quickattack",
-      "8:magnetbomb",
-      "12:protect",
-      "16:rockthrow",
-      "18:firepunch",
-      "18:thunderpunch",
-      "18:icepunch",
-      "20:nastyplot",
-      "24:smackdown",
-      "29:flashcannon",
-      "32:darkeningbolt",
-      "36:highhorsepower",
-      "40:rocksmash",
-      "44:blastcannon",
-      "50:steelbeam",
-      "egg:rockblast",
-      "egg:luminacrash",
-      "egg:bellydrum",
-      "egg:bodyslam",
-      "egg:crosschop",
-      "egg:drainpunch",
-      "egg:dynamicpunch",
-      "egg:encore",
-      "egg:fakeout",
-      "egg:flail",
-      "egg:irondefense",
-      "egg:machpunch",
-      "egg:megakick",
-      "tm:megapunch",
-      "tm:psychocut",
-      "tm:hyperbeam",
-      "tm:gigaimpact",
-      "tm:magicalleaf",
-      "tm:solarbeam",
-      "tm:firespin",
-      "tm:dig",
-      "tm:screech",
-      "tm:reflect",
-      "tm:safeguard",
-      "tm:rest",
-      "tm:rockslide",
-      "tm:thunderpunch",
-      "tm:thunderbolt",
-      "tm:thunder",
-      "tm:earthquake",
-      "tm:brickbreak",
-      "tm:crunch",
-      "tm:shadowball",
-      "tm:sludgebomb",
-      "tm:sludgewave",
-      "tm:facade",
-      "tm:aerialace",
-      "tm:helpinghand",
-      "tm:polygonalsword",
-      "tm:flamecharge",
-      "tm:attract",
-      "tm:lowsweep",
-      "tm:rocktomb",
-      "tm:echoedvoice",
-      "tm:bulletseed",
-      "tm:focusblast",
-      "tm:rockblast",
-      "tm:assurance",
-      "tm:fling",
-      "tm:shadowclaw",
-      "tm:swordsdance",
-      "tm:bulldoze",
-      "tm:rockslide",
-      "tm:swagger",
-      "tm:mistyterrain",
-      "tm:substitute",
-      "tm:stompingtantrum"
-      ],
-      "baseStats": {
+    ],
+    "baseStats": {
         "hp": 60,
-        "attack": 70,
-        "defence": 110,
-        "special_attack": 120,
-        "special_defence": 90,
-        "speed": 70
-      },
-      "baseFriendship": 50,
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 1
-      },
-  "maleRatio": 0.5,
-  "aspects": [
-    "paldea"
-   ],
-  "eggGroups": [
-    "field",
-    "fairy"
-   ],
-  "drops": {
-    "amount": 4,
-    "entries": [
-         {
-           "item": "minecraft:chain",
-           "quantityRange": "1-2",
-           "percentage": 100
-         },
-         {
-           "item": "minecraft:iron_helmet",
-           "quantityRange": "1",
-           "percentage": 50
-         },
-         {
-           "item": "cobblemon:razor_claw",
-           "percentage": 12
-         },
-         {
-           "item": "cobblemon:heavy_duty_boots",
-           "percentage": 12
-         }
+        "attack": 120,
+        "defence": 70,
+        "special_attack": 110,
+        "special_defence": 70,
+        "speed": 90
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-7",
+            "willSleepOnBed": true
+        },
+        "moving": {
+            "canLook": true,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.3,
+                "canSwimInWater": false,
+                "canBreatheUnderwater": true
+            },
+            "fly": {
+                "canFly": false,
+                "flySpeedHorizontal": 0.3
+            }
+        }
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 211,
+    "eggCycles": 20,
+    "eggGroups": [
+        "field",
+        "fairy"
+    ],
+    "drops": {
+        "amount": 4,
+        "entries": [
+            {
+                "item": "minecraft:wheat",
+                "quantityRange": "1-2",
+                "percentage": 100
+            },
+            {
+                "item": "minecraft:leather_chest",
+                "quantityRange": "1",
+                "percentage": 50
+            },
+            {
+                "item": "cobblemon:razor_claw",
+                "percentage": 12
+            },
+            {
+                "item": "cobblemon:muscle_band",
+                "percentage": 12
+            }
         ]
-      }
-    ]
-  "pokedex": [
-    "cobblemon.species.cowble.desc"
-  ],
-  "baseScale": 1,
-  "hitbox": {
-    "width": 0.6,
-    "height": 0.6,
-    "fixed": false
-  },
-  "baseFriendship": 50,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 1,
-  "weight": 1,
-  "evolutions": []
+    },
+    "moves": [
+        "1:leer",
+        "1:doublekick",
+        "1:pillowpummel",
+        "4:quickattack",
+        "8:lowsweep",
+        "12:detect",
+        "16:rockthrow",
+        "18:firepunch",
+        "18:thunderpunch",
+        "18:icepunch",
+        "20:swordsdance",
+        "24:smackdown",
+        "29:magnumpunch",
+        "32:playrough",
+        "36:highhorsepower",
+        "40:bulletpunch",
+        "44:hammerarm",
+        "50:closecombat",
+        "egg:rockblast",
+        "egg:luminacrash",
+        "egg:bellydrum",
+        "egg:bodyslam",
+        "egg:crosschop",
+        "egg:drainpunch",
+        "egg:dynamicpunch",
+        "egg:encore",
+        "egg:fakeout",
+        "egg:flail",
+        "egg:irondefense",
+        "egg:machpunch",
+        "egg:megakick",
+        "tm:megapunch",
+        "tm:psychocut",
+        "tm:hyperbeam",
+        "tm:gigaimpact",
+        "tm:magicalleaf",
+        "tm:solarbeam",
+        "tm:firespin",
+        "tm:dig",
+        "tm:screech",
+        "tm:reflect",
+        "tm:safeguard",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:thunderpunch",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:earthquake",
+        "tm:brickbreak",
+        "tm:crunch",
+        "tm:shadowball",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:helpinghand",
+        "tm:hypervoice",
+        "tm:flamecharge",
+        "tm:attract",
+        "tm:lowsweep",
+        "tm:rocktomb",
+        "tm:echoedvoice",
+        "tm:bulletseed",
+        "tm:focusblast",
+        "tm:rockblast",
+        "tm:assurance",
+        "tm:fling",
+        "tm:shadowclaw",
+        "tm:swordsdance",
+        "tm:bulldoze",
+        "tm:rockslide",
+        "tm:swagger",
+        "tm:mistyterrain",
+        "tm:substitute",
+        "tm:stompingtantrum"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "features": [
+        "paldean"
+    ],
+    "aspects": [],
+    "forms": [
+        {
+            "name": "Paldean",
+            "primaryType": "steel",
+            "secondaryType": "dark",
+            "abilities": [
+                "laserfocus",
+                "steelworker",
+                "h:moldbreaker"
+            ],
+            "aspects": [
+                "paldean"
+            ],
+            "moves": [
+                "1:leer",
+                "1:bulletpunch",
+                "1:pursuit",
+                "4:quickattack",
+                "8:magnetbomb",
+                "12:protect",
+                "16:rockthrow",
+                "18:firepunch",
+                "18:thunderpunch",
+                "18:icepunch",
+                "20:nastyplot",
+                "24:smackdown",
+                "29:flashcannon",
+                "32:darkeningbolt",
+                "36:highhorsepower",
+                "40:rocksmash",
+                "44:blastcannon",
+                "50:steelbeam",
+                "egg:rockblast",
+                "egg:luminacrash",
+                "egg:bellydrum",
+                "egg:bodyslam",
+                "egg:crosschop",
+                "egg:drainpunch",
+                "egg:dynamicpunch",
+                "egg:encore",
+                "egg:fakeout",
+                "egg:flail",
+                "egg:irondefense",
+                "egg:machpunch",
+                "egg:megakick",
+                "tm:megapunch",
+                "tm:psychocut",
+                "tm:hyperbeam",
+                "tm:gigaimpact",
+                "tm:magicalleaf",
+                "tm:solarbeam",
+                "tm:firespin",
+                "tm:dig",
+                "tm:screech",
+                "tm:reflect",
+                "tm:safeguard",
+                "tm:rest",
+                "tm:rockslide",
+                "tm:thunderpunch",
+                "tm:thunderbolt",
+                "tm:thunder",
+                "tm:earthquake",
+                "tm:brickbreak",
+                "tm:crunch",
+                "tm:shadowball",
+                "tm:sludgebomb",
+                "tm:sludgewave",
+                "tm:facade",
+                "tm:aerialace",
+                "tm:helpinghand",
+                "tm:polygonalsword",
+                "tm:flamecharge",
+                "tm:attract",
+                "tm:lowsweep",
+                "tm:rocktomb",
+                "tm:echoedvoice",
+                "tm:bulletseed",
+                "tm:focusblast",
+                "tm:rockblast",
+                "tm:assurance",
+                "tm:fling",
+                "tm:shadowclaw",
+                "tm:swordsdance",
+                "tm:bulldoze",
+                "tm:rockslide",
+                "tm:swagger",
+                "tm:mistyterrain",
+                "tm:substitute",
+                "tm:stompingtantrum"
+            ],
+            "baseStats": {
+                "hp": 60,
+                "attack": 70,
+                "defence": 110,
+                "special_attack": 120,
+                "special_defence": 90,
+                "speed": 70
+            },
+            "baseFriendship": 50,
+            "evYield": {
+                "hp": 1,
+                "attack": 0,
+                "defence": 0,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 1
+            },
+            "maleRatio": 0.5,
+            "eggGroups": [
+                "field",
+                "fairy"
+            ],
+            "drops": {
+                "amount": 4,
+                "entries": [
+                    {
+                        "item": "minecraft:chain",
+                        "quantityRange": "1-2",
+                        "percentage": 100
+                    },
+                    {
+                        "item": "minecraft:iron_helmet",
+                        "quantityRange": "1",
+                        "percentage": 50
+                    },
+                    {
+                        "item": "cobblemon:razor_claw",
+                        "percentage": 12
+                    },
+                    {
+                        "item": "cobblemon:heavy_duty_boots",
+                        "percentage": 12
+                    }
+                ]
+            },
+            "pokedex": [
+                "cobblemon.species.cowble_paldea.desc"
+            ]
+        }
+    ],
+    "pokedex": [
+        "cobblemon.species.cowble.desc"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+        "width": 0.6,
+        "height": 0.6,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 1,
+    "weight": 1,
+    "evolutions": []
 }
