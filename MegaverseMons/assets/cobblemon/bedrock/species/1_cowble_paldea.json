@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cowble",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["paldean"],
+      "model": "cobblemon:cowble_paldea.geo",
+      "texture": "cobblemon:textures/pokemon/cowble/cowble_paldea.png",
+      "layers": []
+    },
+    {
+	"aspects": [
+        "shiny",
+	    "paldean"
+      ],
+      "texture": "cobblemon:textures/pokemon/cowble/cowble_paldea_shiny.png"
+    }
+  ]
+}
