@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:blissprit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:blissprit",
+      "model": "cobblemon:blissprit.geo",
+      "texture": "cobblemon:textures/pokemon/blissprit/blissprit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/blissprit/blissprit_shiny.png"
+    }
+  ]
+}
