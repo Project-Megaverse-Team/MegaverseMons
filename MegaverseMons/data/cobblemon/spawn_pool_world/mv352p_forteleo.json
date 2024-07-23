@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "forteleo-1",
+            "pokemon": "forteleo",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-90",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#minecraft:is_dripstone"
+                ]
+            }
+        }
+    ]
+}
