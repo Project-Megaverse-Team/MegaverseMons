@@ -39,6 +39,40 @@
                    "#cobblemon:is_taiga"
                 ]
             }
+        },
+		{
+            "id": "cowble-paldean-1",
+            "pokemon": "cowble paldean",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-68",
+            "weight":10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                   "#cobblemon:is_cave"
+                ]
+            }
+        },
+		{
+            "id": "cowble-paldean-2",
+            "pokemon": "cowble paldean",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-68",
+            "weight":10,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                   "#cobblemon:is_lush",
+                   "#cobblemon:is_dripstone"
+                ]
+            }
         }
     ]
 }
