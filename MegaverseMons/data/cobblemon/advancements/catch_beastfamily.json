@@ -14,7 +14,7 @@
 	},
 	"parent": "cobblemon:first_catch",
 	"criteria": {
-		"manixie": {
+		"cowble": {
 			"trigger": "cobblemon:party",
 			"conditions": {
 				"pokemon": "cobblemon:liength", "cobblemon:manixie", "cobblemon:cowble", "cobblemon:blissprit"
