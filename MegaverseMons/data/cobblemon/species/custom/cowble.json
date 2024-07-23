@@ -76,6 +76,7 @@
   "moves": [
     "1:leer",
     "1:doublekick",
+    "1:pillowpummel",
     "4:quickattack",
     "8:lowsweep",
     "12:detect",
@@ -172,22 +173,23 @@
     },
       "moves": [
       "1:leer",
-      "1:doublekick",
+      "1:bulletpunch",
+      "1:pursuit",
       "4:quickattack",
-      "8:lowsweep",
-      "12:detect",
+      "8:magnetbomb",
+      "12:protect",
       "16:rockthrow",
       "18:firepunch",
       "18:thunderpunch",
       "18:icepunch",
-      "20:swordsdance",
+      "20:nastyplot",
       "24:smackdown",
-      "29:magnumpunch",
-      "32:playrough",
+      "29:flashcannon",
+      "32:darkeningbolt",
       "36:highhorsepower",
-      "40:bulletpunch",
-      "44:hammerarm",
-      "50:closecombat",
+      "40:rocksmash",
+      "44:blastcannon",
+      "50:steelbeam",
       "egg:rockblast",
       "egg:luminacrash",
       "egg:bellydrum",
@@ -226,7 +228,7 @@
       "tm:facade",
       "tm:aerialace",
       "tm:helpinghand",
-      "tm:hypervoice",
+      "tm:polygonalsword",
       "tm:flamecharge",
       "tm:attract",
       "tm:lowsweep",
@@ -247,12 +249,12 @@
       "tm:stompingtantrum"
       ],
       "baseStats": {
-        "hp": 110,
-        "attack": 60,
-        "defence": 95,
-        "special_attack": 130,
-        "special_defence": 110,
-        "speed": 90
+        "hp": 60,
+        "attack": 70,
+        "defence": 110,
+        "special_attack": 120,
+        "special_defence": 90,
+        "speed": 70
       },
       "baseFriendship": 50,
       "evYield": {
@@ -289,7 +291,7 @@
            "percentage": 12
          },
          {
-           "item": "cobblemon:heavy-duty_boots",
+           "item": "cobblemon:heavy_duty_boots",
            "percentage": 12
          }
         ]
