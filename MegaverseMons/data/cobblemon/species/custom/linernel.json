@@ -20,9 +20,6 @@
       "aspects": [
         "valhansian"
       ],
-      "pokedex": [
-      "cobblemon.species.linernel_valhansen.desc"
-      ],
       "baseScale": 0.7,
   "evolutions": [
     {
@@ -30,6 +27,7 @@
       "variant": "level_up",
       "result": "doshell",
       "consumeHeldItem": true,
+      "permanent": true,
       "learnableMoves": [
         "electroball"
       ],
@@ -50,6 +48,7 @@
       "variant": "level_up",
       "result": "darshell",
       "consumeHeldItem": true,
+      "permanent": true,
       "learnableMoves": [
         "flowerpower"
       ],
@@ -140,7 +139,8 @@
     "custom"
   ],
   "pokedex": [
-    "cobblemon.species.linernel.desc"
+    "cobblemon.species.linernel.desc1",
+    "cobblemon.species.linernel.desc2"
   ],
   "baseScale": 1,
   "hitbox": {
@@ -165,6 +165,7 @@
       "variant": "level_up",
       "result": "Debiave",
       "consumeHeldItem": true,
+      "permanent": true,
       "learnableMoves": [
         "psybeam"
       ],
@@ -185,6 +186,7 @@
       "variant": "level_up",
       "result": "gentone",
       "consumeHeldItem": true,
+      "permanent": true,
       "learnableMoves": [
         "mistyterrain"
       ],
