@@ -19,8 +19,9 @@
       {
         "item": "minecraft:glass_bottle",
         "percentage": 2.5
-      }
-    ],
+            }
+        ]
+    },
       "baseStats": {
         "hp": 75,
         "attack": 50,
