@@ -148,8 +148,11 @@
 		"learnableMoves": [],
 		"requirements": [],
 		"requiredContext": "cobblemon:yellow_apricorn"
-  ]
+    }
+  ],
+
       "cannotDynamax": false,
       "battleOnly": false
     }
   ]
+}
