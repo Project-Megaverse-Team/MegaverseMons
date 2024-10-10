@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.stufful",
+				"identifier": "geometry.stufful_valhansian",
 				"texture_width": 64,
 				"texture_height": 42,
 				"visible_bounds_width": 3,
@@ -43,9 +43,9 @@
 					"parent": "head",
 					"pivot": [0, 7.75, -9.45],
 					"cubes": [
-						{"origin": [-2.5, 7.1, -9.49], "size": [5, 3, 0], "inflate": 0.03, "uv": [40, 29]},
+						{"origin": [-2.5, 7.1, -9.49], "size": [5, 3, 0], "inflate": 0.03, "uv": [18, 29]},
 						{"origin": [-1, 8.85, -9.49], "size": [2, 1, 0], "inflate": 0.04, "uv": [20, 16]},
-						{"origin": [-2.5, 6.55, -9.49], "size": [5, 2, 0], "uv": [30, 30]}
+						{"origin": [-2.5, 6.55, -9.49], "size": [5, 2, 0], "uv": [18, 32]}
 					]
 				},
 				{
