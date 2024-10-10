@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:bewear",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["valhansian"],
+      "model": "cobblemon:stufful_bewear.geo",
+      "texture": "cobblemon:textures/pokemon/0760_bewear/bewear_valhansian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+	    "valhansian"
+      ],
+      "texture": "cobblemon:textures/pokemon/0760_bewear/bewear_valhansian_shiny.png"
+    }
+  ]
+}
