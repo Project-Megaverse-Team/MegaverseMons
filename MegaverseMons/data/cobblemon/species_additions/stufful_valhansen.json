@@ -44,7 +44,6 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 20,
       "eggGroups": [
-		"water_1",
 		"field"
       ],
       "moves": [
