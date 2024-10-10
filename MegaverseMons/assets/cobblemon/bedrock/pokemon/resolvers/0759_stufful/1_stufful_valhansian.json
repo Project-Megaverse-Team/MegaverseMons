@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:stufful",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["valhansian"],
+      "model": "cobblemon:stufful_valhansian.geo",
+      "texture": "cobblemon:textures/pokemon/0759_stufful/stufful_valhansian.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+	    "valhansian"
+      ],
+      "texture": "cobblemon:textures/pokemon/0759_stufful/stufful_valhansian_shiny.png"
+    }
+  ]
+}
