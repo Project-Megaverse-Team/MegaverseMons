@@ -48,7 +48,6 @@
 		"field"
       ],
       "moves": [
-  "moves": [
     "1:leer",
     "1:tackle",
     "4:babydolleyes",
@@ -149,7 +148,7 @@
 		"learnableMoves": [],
 		"requirements": [],
 		"requiredContext": "cobblemon:yellow_apricorn"
-  ],
+  ]
       "cannotDynamax": false,
       "battleOnly": false
     }
