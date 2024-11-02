@@ -2,8 +2,8 @@
   "implemented": true,
   "name": "Forte Leo",
   "nationalPokedexNumber": 5106,
-  "primaryType": "fighting",
-  "secondaryType": "rock",
+  "primaryType": "rock",
+  "secondaryType": "fighting",
   "abilities": [
     "protosynthesis"
   ],
