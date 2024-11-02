@@ -2,8 +2,8 @@
   "implemented": true,
   "name": "Sprite Pixel",
   "nationalPokedexNumber": 5106,
-  "primaryType": "digital",
-  "secondaryType": "fairy",
+  "primaryType": "fairy",
+  "secondaryType": "digital",
   "abilities": [
     "quarkdrive"
   ],
