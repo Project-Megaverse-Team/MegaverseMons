@@ -1,4 +1,11 @@
 {
+  "cobblemon.ui.pokedex.region.xetopia": "Xetopia",
+  "cobblemon.ui.pokedex.region.valhansen": "Valhansen",
+  "cobblemon.ui.pokedex.info.form.xetopia": "de Xetopia",
+  "cobblemon.ui.pokedex.info.form.region-bias-xetopia": "Sesgo de Xetopia",
+  "cobblemon.ui.pokedex.info.form.valhansen": "de Valhansen",
+  "cobblemon.ui.pokedex.info.form.region-bias-valhansen": "Sesgo de Valhansen",
+  
   "cobblemon.species.flosile.name": "Flosile",
   "cobblemon.species.flosile.desc": "Un amable cuidador de flores. La cola del Pokémon gana poder mediante la fotosíntesis.",
   "cobblemon.species.salile.name": "Salile",
@@ -126,6 +133,8 @@
   "advancements.cobblemon.alteia_catch.description": "Atrapa tanto al Manixie Místico como al Sailine Vínculo Roto",
   "advancements.cobblemon.alteia_catch_manixie": "Secreto de Maná",
   "advancements.cobblemon.alteia_catch_manixie.description": "Atrapa al Manixie Místico",
+  "cobblemon.ui.pokedex.info.form.manixie-mystical": "Místico",
   "advancements.cobblemon.alteia_catch_sailine": "Sailine Quiere Intentar Morir",
-  "advancements.cobblemon.alteia_catch_sailine.description": "Atrapa al Sailine Vínculo Roto"
+  "advancements.cobblemon.alteia_catch_sailine.description": "Atrapa al Sailine Vínculo Roto",
+  "cobblemon.ui.pokedex.info.form.sailine-broken-bond": "Vínculo Roto"
 }
