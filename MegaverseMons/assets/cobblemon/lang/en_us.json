@@ -1,4 +1,11 @@
 {
+  "cobblemon.ui.pokedex.region.xetopia": "Xetopia",
+  "cobblemon.ui.pokedex.region.valhansen": "Valhansen",
+  "cobblemon.ui.pokedex.info.form.xetopia": "Xetopian",
+  "cobblemon.ui.pokedex.info.form.region-bias-xetopia": "Xetopia Bias",
+  "cobblemon.ui.pokedex.info.form.valhansen": "Valhansian",
+  "cobblemon.ui.pokedex.info.form.region-bias-valhansen": "Valhansen Bias",
+  
   "cobblemon.species.flosile.name": "Flosile",
   "cobblemon.species.flosile.desc": "A kind caretaker of flowers. The tail of the Pokémon gains power through photosynthesis.",
   "cobblemon.species.salile.name": "Salile",
@@ -126,6 +133,8 @@
   "advancements.cobblemon.alteia_catch.description": "Catch both Mystical Manixie and Broken Bond Sailine",
   "advancements.cobblemon.alteia_catch_manixie": "Secret of Mana",
   "advancements.cobblemon.alteia_catch_manixie.description": "Catch a Mystical Manixie",
+  "cobblemon.ui.pokedex.info.form.manixie-mystical": "Mystical",
   "advancements.cobblemon.alteia_catch_sailine": "Sailine Wants to Die Trying",
-  "advancements.cobblemon.alteia_catch_sailine.description": "Catch a Broken Bond Sailine"
+  "advancements.cobblemon.alteia_catch_sailine.description": "Catch a Broken Bond Sailine",
+  "cobblemon.ui.pokedex.info.form.sailine-broken-bond": "Broken Bond"
 }
